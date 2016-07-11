@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */; };
+		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
+		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
 		D8DAD44C1D3351A4009DDEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44B1D3351A4009DDEBC /* main.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4521D3351A4009DDEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4511D3351A4009DDEBC /* ViewController.m */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C3E80DB95B9EAAFD448F03 /* Pods-wallpaper-elf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elf.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf.release.xcconfig"; sourceTree = "<group>"; };
+		4A3AB2DE2E91D9B1B977D13A /* Pods-wallpaper-elf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5F7675885E692E1035C8A2 /* Pods-wallpaper-elfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44B1D3351A4009DDEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		D8DAD46B1D3351A4009DDEBC /* wallpaper-elfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wallpaper-elfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD46F1D3351A4009DDEBC /* wallpaper_elfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wallpaper_elfUITests.m; sourceTree = "<group>"; };
 		D8DAD4711D3351A4009DDEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FB37F51A3160E9EE34466A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */,
+				236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */,
+				ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8DAD43E1D3351A4009DDEBC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				D8DAD4631D3351A4009DDEBC /* wallpaper-elfTests */,
 				D8DAD46E1D3351A4009DDEBC /* wallpaper-elfUITests */,
 				D8DAD4481D3351A4009DDEBC /* Products */,
+				FFF66519F2F992B55C6F0A95 /* Pods */,
+				1FB37F51A3160E9EE34466A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = "wallpaper-elfUITests";
 			sourceTree = "<group>";
 		};
+		FFF66519F2F992B55C6F0A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AB2DE2E91D9B1B977D13A /* Pods-wallpaper-elf.debug.xcconfig */,
+				30C3E80DB95B9EAAFD448F03 /* Pods-wallpaper-elf.release.xcconfig */,
+				5A5F7675885E692E1035C8A2 /* Pods-wallpaper-elfTests.debug.xcconfig */,
+				A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */,
+				9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */,
+				F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8DAD4741D3351A4009DDEBC /* Build configuration list for PBXNativeTarget "wallpaper-elf" */;
 			buildPhases = (
+				3DEDCF0BAF2C9CFE5AB6C8FC /* [CP] Check Pods Manifest.lock */,
 				D8DAD4431D3351A4009DDEBC /* Sources */,
 				D8DAD4441D3351A4009DDEBC /* Frameworks */,
 				D8DAD4451D3351A4009DDEBC /* Resources */,
+				FE9A118EFB1C56400A85CF29 /* [CP] Embed Pods Frameworks */,
+				C3983F091C408C2DECB88ACC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8DAD4771D3351A4009DDEBC /* Build configuration list for PBXNativeTarget "wallpaper-elfTests" */;
 			buildPhases = (
+				838EEAA5EC08BE134C9EF478 /* [CP] Check Pods Manifest.lock */,
 				D8DAD45C1D3351A4009DDEBC /* Sources */,
 				D8DAD45D1D3351A4009DDEBC /* Frameworks */,
 				D8DAD45E1D3351A4009DDEBC /* Resources */,
+				BFD3F2689650FD0501CFFCFB /* [CP] Embed Pods Frameworks */,
+				2D219AE4BACE644D139AFB4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8DAD47A1D3351A4009DDEBC /* Build configuration list for PBXNativeTarget "wallpaper-elfUITests" */;
 			buildPhases = (
+				5B9D68A7E8E16E9414895AB2 /* [CP] Check Pods Manifest.lock */,
 				D8DAD4671D3351A4009DDEBC /* Sources */,
 				D8DAD4681D3351A4009DDEBC /* Frameworks */,
 				D8DAD4691D3351A4009DDEBC /* Resources */,
+				5CDF5A77D30C35C438F95907 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D219AE4BACE644D139AFB4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DEDCF0BAF2C9CFE5AB6C8FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9D68A7E8E16E9414895AB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CDF5A77D30C35C438F95907 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838EEAA5EC08BE134C9EF478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD3F2689650FD0501CFFCFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3983F091C408C2DECB88ACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9A118EFB1C56400A85CF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8DAD4431D3351A4009DDEBC /* Sources */ = {
@@ -413,6 +584,7 @@
 		};
 		D8DAD4751D3351A4009DDEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3AB2DE2E91D9B1B977D13A /* Pods-wallpaper-elf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "wallpaper-elf/Info.plist";
@@ -424,6 +596,7 @@
 		};
 		D8DAD4761D3351A4009DDEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C3E80DB95B9EAAFD448F03 /* Pods-wallpaper-elf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "wallpaper-elf/Info.plist";
@@ -435,6 +608,7 @@
 		};
 		D8DAD4781D3351A4009DDEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5F7675885E692E1035C8A2 /* Pods-wallpaper-elfTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "wallpaper-elfTests/Info.plist";
@@ -447,6 +621,7 @@
 		};
 		D8DAD4791D3351A4009DDEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "wallpaper-elfTests/Info.plist";
@@ -459,6 +634,7 @@
 		};
 		D8DAD47B1D3351A4009DDEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "wallpaper-elfUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +646,7 @@
 		};
 		D8DAD47C1D3351A4009DDEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "wallpaper-elfUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +675,7 @@
 				D8DAD4761D3351A4009DDEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8DAD4771D3351A4009DDEBC /* Build configuration list for PBXNativeTarget "wallpaper-elfTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +684,7 @@
 				D8DAD4791D3351A4009DDEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8DAD47A1D3351A4009DDEBC /* Build configuration list for PBXNativeTarget "wallpaper-elfUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +693,7 @@
 				D8DAD47C1D3351A4009DDEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
