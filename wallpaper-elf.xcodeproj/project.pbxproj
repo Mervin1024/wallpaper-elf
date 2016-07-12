@@ -10,7 +10,6 @@
 		4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */; };
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
-		D8DAD44C1D3351A4009DDEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44B1D3351A4009DDEBC /* main.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4521D3351A4009DDEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4511D3351A4009DDEBC /* ViewController.m */; };
 		D8DAD4551D3351A4009DDEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4531D3351A4009DDEBC /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		D8DAD45A1D3351A4009DDEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4581D3351A4009DDEBC /* LaunchScreen.storyboard */; };
 		D8DAD4651D3351A4009DDEBC /* wallpaper_elfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4641D3351A4009DDEBC /* wallpaper_elfTests.m */; };
 		D8DAD4701D3351A4009DDEBC /* wallpaper_elfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD46F1D3351A4009DDEBC /* wallpaper_elfUITests.m */; };
+		D8DAD47F1D338C2D009DDEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD47E1D338C2D009DDEBC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8DAD44B1D3351A4009DDEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8DAD4501D3351A4009DDEBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -62,6 +61,11 @@
 		D8DAD46B1D3351A4009DDEBC /* wallpaper-elfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wallpaper-elfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD46F1D3351A4009DDEBC /* wallpaper_elfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wallpaper_elfUITests.m; sourceTree = "<group>"; };
 		D8DAD4711D3351A4009DDEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DAD47D1D338C1E009DDEBC /* wallpaper-elf.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "wallpaper-elf.pch"; path = "SupportingFiles/wallpaper-elf.pch"; sourceTree = "<group>"; };
+		D8DAD47E1D338C2D009DDEBC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		D8DAD4801D33904D009DDEBC /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Constants.h; sourceTree = "<group>"; };
+		D8DAD4821D339175009DDEBC /* NotificationNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationNames.h; path = Common/NotificationNames.h; sourceTree = "<group>"; };
+		D8DAD49F1D34F089009DDEBC /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = Common/Colors.h; sourceTree = "<group>"; };
 		F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +132,7 @@
 		D8DAD4491D3351A4009DDEBC /* wallpaper-elf */ = {
 			isa = PBXGroup;
 			children = (
+				D8DAD4811D339053009DDEBC /* Common */,
 				D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */,
 				D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */,
 				D8DAD4501D3351A4009DDEBC /* ViewController.h */,
@@ -144,7 +149,8 @@
 		D8DAD44A1D3351A4009DDEBC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8DAD44B1D3351A4009DDEBC /* main.m */,
+				D8DAD47E1D338C2D009DDEBC /* main.m */,
+				D8DAD47D1D338C1E009DDEBC /* wallpaper-elf.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,6 +171,16 @@
 				D8DAD4711D3351A4009DDEBC /* Info.plist */,
 			);
 			path = "wallpaper-elfUITests";
+			sourceTree = "<group>";
+		};
+		D8DAD4811D339053009DDEBC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D8DAD4801D33904D009DDEBC /* Constants.h */,
+				D8DAD4821D339175009DDEBC /* NotificationNames.h */,
+				D8DAD49F1D34F089009DDEBC /* Colors.h */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 		FFF66519F2F992B55C6F0A95 /* Pods */ = {
@@ -443,7 +459,7 @@
 			files = (
 				D8DAD4521D3351A4009DDEBC /* ViewController.m in Sources */,
 				D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */,
-				D8DAD44C1D3351A4009DDEBC /* main.m in Sources */,
+				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +603,7 @@
 			baseConfigurationReference = 4A3AB2DE2E91D9B1B977D13A /* Pods-wallpaper-elf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wallpaper-elf/SupportingFiles/wallpaper-elf.pch";
 				INFOPLIST_FILE = "wallpaper-elf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;
@@ -599,6 +616,7 @@
 			baseConfigurationReference = 30C3E80DB95B9EAAFD448F03 /* Pods-wallpaper-elf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wallpaper-elf/SupportingFiles/wallpaper-elf.pch";
 				INFOPLIST_FILE = "wallpaper-elf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;

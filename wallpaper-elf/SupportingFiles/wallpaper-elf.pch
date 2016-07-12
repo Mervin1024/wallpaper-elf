@@ -1,0 +1,21 @@
+//
+//  wallpaper-elf.pch
+//  wallpaper-elf
+//
+//  Created by mervin on 16/7/11.
+//  Copyright © 2016年 mervin. All rights reserved.
+//
+
+#ifndef wallpaper_elf_pch
+#define wallpaper_elf_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import "Constants.h"
+
+#endif /* wallpaper_elf_pch */
