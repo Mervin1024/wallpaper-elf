@@ -13,6 +13,7 @@
 #import "NotificationNames.h"
 #import "Masonry.h"
 #import "Colors.h"
+#import "ImageHelper.h"
 
 #define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
 
@@ -32,16 +33,4 @@ NSDictionary* textAttributes = @{NSForegroundColorAttributeName:[UIColor blackCo
 [self.navigationController.navigationBar setTitleTextAttributes:textAttributes];\
 [[UIBarButtonItem appearance] setTitleTextAttributes:textAttributes forState:0];
 
-#define SetBlackBackGroundWhiteForgroundStyleWhenViewWillAppear \
-- (void)viewWillAppear:(BOOL)animated\
-{\
-[super viewWillAppear:animated];\
-SetBlackBackGroundWhiteForgroundStyle\
-}
-
-#define SetWhiteBackGroundBlackForgroundStyleWhenViewWillAppear \
-- (void)viewWillAppear:(BOOL)animated\
-{\
-[super viewWillAppear:animated];\
-SetWhiteBackGroundBlackForgroundStyle\
-}\
+#define NSLog(...) NSLog(__VA_ARGS__)

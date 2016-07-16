@@ -15,12 +15,11 @@
 
 @end
 
-@interface HeartClickView : UIImageView
+@interface HeartClickView : UIView
 
 @property (nonatomic, assign, getter=isFilled) BOOL filled; //默认 NO
 @property (nonatomic, assign, getter=isEnabled) BOOL enabled; // 默认 YES
 @property (nonatomic, weak) id<HeartClickViewDelegate> delegate;
 
 
-- (void)showAnimation;
 @end
