@@ -14,10 +14,12 @@
 #import "Masonry.h"
 #import "Colors.h"
 #import "ImageHelper.h"
+#import "MobileDevice.h"
 
 #define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
 
-#define SYSTEM_FONT(fontSize) [UIFont systemFontOfSize:fontSize]
+#define SYSTEM_FONT(fontSize)       [UIFont systemFontOfSize:fontSize]
+#define SYSTEM_FONT_BOLD(fontSize)  [UIFont boldSystemFontOfSize:fontSize]
 
 #define SetBlackBackGroundWhiteForgroundStyle \
 [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];\

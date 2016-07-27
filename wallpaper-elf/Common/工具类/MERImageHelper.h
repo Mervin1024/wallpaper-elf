@@ -10,6 +10,7 @@
 
 @interface MERImageHelper : NSObject
 
+
 // 图片缩放
 + (UIImage *)scaleToSize:(UIImage *)img size:(CGSize)size;
 // 图片截取

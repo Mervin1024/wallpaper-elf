@@ -12,9 +12,13 @@
 #import "TagSelectViewController.h"
 #import "HeartBeatView.h"
 #import "HeartClickView.h"
+#import "TeacherEvaluationViewController.h"
+#import "StudentEvaluationViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController (){
+    NSArray *evaluationTags; // 服务器获取的所有评论tag
+}
+@property (nonatomic, copy) NSArray *feedbackItems; //提供的反馈条目
 @end
 
 @implementation ViewController{
@@ -32,15 +36,14 @@
 //        
 //    }];
 //    LayerAnimationViewController *childController = [[LayerAnimationViewController alloc] init];
-//    TagSelectViewController *childController = [[TagSelectViewController alloc] initWithTitle:@"关于老师" evaluations:nil];
-//    [self addChildViewController:childController];
-//    [self.view addSubview:childController.view];
-    HeartClickView *view = [[HeartClickView alloc] init];
-    view.center = self.view.center;
-    [self.view addSubview:view];
+    StudentEvaluationViewController *childController = [[StudentEvaluationViewController alloc] init];
+    [self addChildViewController:childController];
+    [self.view addSubview:childController.view];
+    
+//    HeartClickView *view = [[HeartClickView alloc] init];
+//    view.center = self.view.center;
+//    [self.view addSubview:view];
 }
-
-
 
 
 @end

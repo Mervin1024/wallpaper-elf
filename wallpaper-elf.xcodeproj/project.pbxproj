@@ -10,6 +10,7 @@
 		4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */; };
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
+		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */; };
 		D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA19D1D3896EC003F02CC /* HeartClickView.m */; };
 		D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */; };
 		D81FA1A51D389794003F02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A31D389794003F02CC /* Main.storyboard */; };
@@ -47,6 +48,8 @@
 		D87A0ED61D39D29700810EB8 /* 点赞_00029.png in Resources */ = {isa = PBXBuildFile; fileRef = D87A0EC21D39D29700810EB8 /* 点赞_00029.png */; };
 		D87A0ED71D39D29700810EB8 /* 点赞_00030.png in Resources */ = {isa = PBXBuildFile; fileRef = D87A0EC31D39D29700810EB8 /* 点赞_00030.png */; };
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
+		D8CEC08F1D4893050002718A /* StudentEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC08E1D4893050002718A /* StudentEvaluationViewController.m */; };
+		D8CEC0921D489BB40002718A /* iphone6Copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0911D489BB40002718A /* iphone6Copy2.png */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4521D3351A4009DDEBC /* TeacherEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4511D3351A4009DDEBC /* TeacherEvaluationViewController.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
@@ -83,6 +86,7 @@
 		9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg; sourceTree = "<group>"; };
 		D81FA19C1D3896EC003F02CC /* HeartClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartClickView.h; sourceTree = "<group>"; };
 		D81FA19D1D3896EC003F02CC /* HeartClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartClickView.m; sourceTree = "<group>"; };
 		D81FA19F1D389779003F02CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
@@ -132,6 +136,10 @@
 		D87A0EC31D39D29700810EB8 /* 点赞_00030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞_00030.png"; sourceTree = "<group>"; };
 		D87A0ED81D39DB2800810EB8 /* MERImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERImageHelper.h; sourceTree = "<group>"; };
 		D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERImageHelper.m; sourceTree = "<group>"; };
+		D8CEC08D1D4893050002718A /* StudentEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEvaluationViewController.h; sourceTree = "<group>"; };
+		D8CEC08E1D4893050002718A /* StudentEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEvaluationViewController.m; sourceTree = "<group>"; };
+		D8CEC0901D4895AC0002718A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
+		D8CEC0911D489BB40002718A /* iphone6Copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6Copy2.png; sourceTree = "<group>"; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -227,9 +235,11 @@
 				D81FA1A81D389803003F02CC /* fullHeart.png */,
 				D81FA1A91D389803003F02CC /* fullHeart@2x.png */,
 				D81FA1AA1D389803003F02CC /* fullHeart@3x.png */,
+				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */,
 				D81FA1AE1D38981B003F02CC /* notFullHeart.png */,
 				D81FA1AF1D38981B003F02CC /* notFullHeart@2x.png */,
 				D81FA1B01D38981B003F02CC /* notFullHeart@3x.png */,
+				D8CEC0911D489BB40002718A /* iphone6Copy2.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -248,6 +258,8 @@
 				D87A0EA61D39CD7D00810EB8 /* UICollectionViewLeftAlignedLayout.m */,
 				D87A0EAC1D39D21600810EB8 /* HeartBeatView.h */,
 				D87A0EAD1D39D21600810EB8 /* HeartBeatView.m */,
+				D8CEC08D1D4893050002718A /* StudentEvaluationViewController.h */,
+				D8CEC08E1D4893050002718A /* StudentEvaluationViewController.m */,
 			);
 			name = testViewController;
 			sourceTree = "<group>";
@@ -259,6 +271,7 @@
 				D81FA1C11D38DDDE003F02CC /* Constants.h */,
 				D81FA1C21D38DDDE003F02CC /* ImageHelper.h */,
 				D81FA1C31D38DDDE003F02CC /* NotificationNames.h */,
+				D8CEC0901D4895AC0002718A /* MobileDevice.h */,
 			);
 			name = "宏文件";
 			path = "Common/宏文件";
@@ -518,11 +531,13 @@
 				D87A0ECC1D39D29700810EB8 /* 点赞_00019.png in Resources */,
 				D87A0EC51D39D29700810EB8 /* 点赞_00012.png in Resources */,
 				D87A0ED61D39D29700810EB8 /* 点赞_00029.png in Resources */,
+				D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg in Resources */,
 				D87A0EC41D39D29700810EB8 /* 点赞_00011.png in Resources */,
 				D87A0ED51D39D29700810EB8 /* 点赞_00028.png in Resources */,
 				D87A0ED21D39D29700810EB8 /* 点赞_00025.png in Resources */,
 				D87A0ED11D39D29700810EB8 /* 点赞_00024.png in Resources */,
 				D87A0ECE1D39D29700810EB8 /* 点赞_00021.png in Resources */,
+				D8CEC0921D489BB40002718A /* iphone6Copy2.png in Resources */,
 				D87A0ED41D39D29700810EB8 /* 点赞_00027.png in Resources */,
 				D87A0ECD1D39D29700810EB8 /* 点赞_00020.png in Resources */,
 				D81FA1D01D38F4CF003F02CC /* selectedBackground.png in Resources */,
@@ -700,6 +715,7 @@
 				D87A0EA81D39CD7D00810EB8 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
+				D8CEC08F1D4893050002718A /* StudentEvaluationViewController.m in Sources */,
 				D81FA1BB1D38D66A003F02CC /* LayerAnimationViewController.m in Sources */,
 				D87A0EAE1D39D21600810EB8 /* HeartBeatView.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "TagSelectViewController.h"
 #import "UICollectionViewLeftAlignedLayout.h"
+#import "HeartClickView.h"
 
 #define kCollectionViewCellsHorizonMargin 15          // cell 之间的间隔
 #define kCollectionViewCellHeight 24                  // cell 的高
@@ -27,9 +28,8 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
 
 @interface TagSelectViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
-@property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSArray *dataSource;
-@property (nonatomic, strong) NSMutableArray *selectedTags;
+@property (nonatomic, strong) NSMutableArray *selectedItems;
 
 @end
 
@@ -37,38 +37,64 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
 
 #pragma mark - getter & setter
 - (NSArray *)dataSource{
-    if (!(self.evaluationItems.count > 0)) {
-        return @[@"不够有趣", @"不够温柔", @"讲解不清楚", @"说中文太多",@"热点", @"不够漂亮啊, 下次来个萌妹子", @"反正就是不喜欢这个老师"];
+    if (_dataSource.count > 0) {
+        return _dataSource;
     }
-    return [self.evaluationItems copy];
+    NSMutableArray *arr = [NSMutableArray array];
+    [self.evaluationTags enumerateObjectsUsingBlock:^(StudentEvaluationTag *tag, NSUInteger idx, BOOL * _Nonnull stop) {
+        [arr addObject:tag.tagName];
+    }];
+    return [NSArray arrayWithArray:arr];
 }
 
-- (NSArray *)selectedItems{
-    return [NSArray arrayWithArray:self.selectedTags];
+- (NSArray *)selectedTags{
+    NSMutableArray *arr = [NSMutableArray array];
+    [self.evaluationTags enumerateObjectsUsingBlock:^(StudentEvaluationTag *tag, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([self.selectedItems containsObject:tag.tagName]) {
+            [arr addObject:tag];
+        }
+    }];
+    return [NSArray arrayWithArray:arr];
 }
 // 此处应该返回这个界面的高度，用作外部适配
-- (CGFloat)viewHeight{
-    #warning error
-    return 91;
+- (CGSize)viewSize{
+    return self.view.frame.size;
+}
 
+- (NSString *)stringWithTagType{
+    NSString *typeStr;
+    switch (self.evaluationTagType) {
+        case TagTypeBadReviewTeacher:
+            typeStr = @"关于老师";
+            break;
+        case TagTypeCourseReview:
+            typeStr = @"关于课程";
+            break;
+        case TagTypeSystemReview:
+            typeStr = @"关于功能";
+            break;
+    }
+    return typeStr;
 }
 #pragma mark - Initialization
-- (instancetype)initWithTitle:(NSString *)title evaluations:(NSArray *)evaluations{
+
+- (instancetype)initWithEvaluationTagType:(StudentEvaluationTagType)evaluationTagType evaluationTags:(NSArray *)evaluationTags{
     if ((self = [super init])) {
-        if (title == nil) {
-            title = @"关于老师";
-        }
-        _evaluationTitle = title;
-        _evaluationItems = evaluations;
+        _evaluationTagType = evaluationTagType;
+        _evaluationTags = evaluationTags;
     }
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.selectedTags = [[NSMutableArray alloc] init];
+    self.selectedItems = [[NSMutableArray alloc] init];
     [self addCollectionView];
-    
+    //    CGSize size = self.collectionView.collectionViewLayout.collectionViewContentSize;
+    //    NSLog(@"TagSelectViewController SIZE:%@",NSStringFromCGSize(size));
+    //    self.view.frame = CGRectMake(0, 0, size.width, size.height);
+    //    self.preferredContentSize = size;
+    //    self.view.clipsToBounds = YES;
 }
 
 - (void)addCollectionView {
@@ -87,6 +113,11 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
     self.collectionView.scrollsToTop = NO;
     // self.collectionView.scrollEnabled = NO;
     [self.view addSubview:self.collectionView];
+    
+    CGSize contentSize =  _collectionView.collectionViewLayout.collectionViewContentSize; // 内容的大小
+    self.preferredContentSize = contentSize; // controller 内容大小
+    self.view.frame = CGRectMake(0, 0, contentSize.width, contentSize.height);
+    self.view.clipsToBounds = YES; // 边界减掉
 }
 #pragma mark - UICollectionViewDataSource
 
@@ -100,13 +131,13 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     CollectionViewCell *cell = (CollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:kCellIdentifier forIndexPath:indexPath];
-    cell.frame = CGRectMake(cell.frame.origin.x, cell.frame.origin.y, cell.frame.size.width, 24);
-    cell.titleLabel.frame = CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height);
+    cell.frame = CGRectMake(cell.frame.origin.x, cell.frame.origin.y, cell.frame.size.width, kCollectionViewCellHeight);
+    //    cell.titleLabel.frame = CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height);
     
     NSString *text = self.dataSource[indexPath.row];
     cell.titleLabel.text = text;
     
-    cell.checked = [self.selectedTags containsObject:text]?YES:NO;
+    cell.checked = [self.selectedItems containsObject:text]?YES:NO;
     
     return cell;
 }
@@ -115,10 +146,10 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
     NSLog(@"%ld",indexPath.row);
     CollectionViewCell *selectItem = (CollectionViewCell*)[collectionView cellForItemAtIndexPath:indexPath];
     selectItem.checked = !selectItem.isChecked;
-    if ([self.selectedTags containsObject:selectItem.titleLabel.text]) {
-        [self.selectedTags removeObject:selectItem.titleLabel.text];
+    if ([self.selectedItems containsObject:selectItem.titleLabel.text]) {
+        [self.selectedItems removeObject:selectItem.titleLabel.text];
     } else {
-        [self.selectedTags addObject:selectItem.titleLabel.text];
+        [self.selectedItems addObject:selectItem.titleLabel.text];
     }
     
     [self.collectionView reloadItemsAtIndexPaths:@[indexPath]];
@@ -129,7 +160,7 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
                                  atIndexPath:(NSIndexPath *)indexPath {
     if ([kind isEqual:UICollectionElementKindSectionHeader]) {
         CollectionHeaderView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:kHeaderViewCellIdentifier forIndexPath:indexPath];
-        headerView.titleLabel.text = self.evaluationTitle;
+        headerView.titleLabel.text = [self stringWithTagType];
         
         return (UICollectionReusableView *)headerView;
     }
@@ -144,8 +175,8 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
                          [UIFont systemFontOfSize:13]}];
     
     cellWidth = ceilf(size.width) + kCellTextExtrarMargin;
-    cellWidth = [self checkCellLimitWidth:cellWidth isLimitWidth:nil]; // 尝试把 block 实现
-  
+    cellWidth = [self checkCellLimitWidth:cellWidth isLimitWidth:nil]; //
+    
     return cellWidth;
 }
 
@@ -188,6 +219,26 @@ static NSString * const kHeaderViewCellIdentifier = @"HeaderViewCellIdentifier";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+@end
+
+@implementation StudentEvaluationTag
+
+- (instancetype)initWithDictionary:(NSDictionary *)dic{
+    if ((self = [super init])) {
+        self.tagName = dic[@"tagName"];
+        self.tagCode = dic[@"tagCode"];
+        NSString *tagType = dic[@"tagType"];
+        if ([tagType isEqualToString:ONLINE_BAD_REVIEW_TEACHER]) {
+            self.tagType = TagTypeBadReviewTeacher;
+        }else if ([tagType isEqualToString:ONLINE_COURSE_REVIEW]) {
+            self.tagType = TagTypeCourseReview;
+        }else if ([tagType isEqualToString:ONLINE_SYSTEM_REVIEW]) {
+            self.tagType = TagTypeSystemReview;
+        }
+    }
+    return self;
 }
 
 @end

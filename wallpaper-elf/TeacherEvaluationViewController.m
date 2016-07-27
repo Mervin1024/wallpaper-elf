@@ -44,11 +44,9 @@
     self.title = @"完课评价";
     
     bgImageName = @"";
-    avatarImageName = @"";
+    avatarImageName = @"83146ca0gw1f4o22z0nevj20m80m8gpi.jpg";
     userName = @"何子瑜";
     courseTitle = @"奥斯卡最佳动画《超能陆战队》";
-    
-    SetBlackBackGroundWhiteForgroundStyle
     
     [self creatCustomView];
     
@@ -91,12 +89,13 @@
     }];
     
     // 头像
-    avatarImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 78, 78)];
+    CGRect imageBounds = CGRectMake(0, 0, 78, 78);
+    avatarImageView = [[UIImageView alloc] initWithFrame:imageBounds];
     [avatarImageView setImage:[UIImage imageNamed:avatarImageName]];
-    
-    avatarImageView.backgroundColor = NewGrayColor;
-    
     avatarImageView.layer.cornerRadius = avatarImageView.bounds.size.width/2;
+    avatarImageView.layer.borderColor = [UIColor whiteColor].CGColor;
+    avatarImageView.layer.borderWidth = 2;
+    avatarImageView.layer.masksToBounds = YES;
     [self.view addSubview:avatarImageView];
     [avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(bgImageView);
