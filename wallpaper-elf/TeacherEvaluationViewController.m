@@ -61,11 +61,11 @@
 }
 
 - (void)creatCustomView{
-    CGFloat backViewOffset = [MERBoolHelper isPad] ? 155 : 98;
-    CGFloat courseTitleOffset =  [MERBoolHelper isPad] ? 64 : 25;
-    CGFloat courseTitleFont = [MERBoolHelper isPad] ? 20 : 18;
-    CGFloat userNameFont = [MERBoolHelper isPad] ? 16 : 14;
-    CGFloat submitOffset = [MERBoolHelper isPad] ? -20 : -10;
+    CGFloat backViewOffset = IPAD ? 155 : 98;
+    CGFloat courseTitleOffset =  IPAD ? 64 : 25;
+    CGFloat courseTitleFont = IPAD ? 20 : 18;
+    CGFloat userNameFont = IPAD ? 16 : 14;
+    CGFloat submitOffset = IPAD ? -20 : -10;
     
     WS(ws); // __weak self
     
@@ -132,7 +132,7 @@
         make.size.mas_equalTo(CGSizeMake(345, 44));
     }];
     
-    CGFloat difficultyButtonFont = [MERBoolHelper isPad] ? 22 : 20;
+    CGFloat difficultyButtonFont = IPAD ? 22 : 20;
     
     //------------评价按钮------------//
     
@@ -187,13 +187,13 @@
 //        }];
 //    }else{
         [difficultyButton mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(userNameLabel.mas_bottom).offset([MERBoolHelper isPad] ? 85 : 65);
+            make.top.mas_equalTo(userNameLabel.mas_bottom).offset(IPAD ? 85 : 65);
             make.centerX.mas_equalTo(backView.mas_centerX).offset(9);
         }];
         [stripe_1 mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(difficultyButton.mas_left).offset(-13);
             make.centerY.mas_equalTo(difficultyButton);
-            make.size.mas_equalTo(CGSizeMake(4, [MERBoolHelper isPad] ? 18 : 16));
+            make.size.mas_equalTo(CGSizeMake(4, IPAD ? 18 : 16));
         }];
         [stripe_2 mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(stripe_1);

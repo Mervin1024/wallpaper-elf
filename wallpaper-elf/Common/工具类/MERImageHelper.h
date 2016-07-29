@@ -10,9 +10,24 @@
 
 @interface MERImageHelper : NSObject
 
-
-// 图片缩放
+/**
+ *	@brief	图片缩放
+ *
+ *	@param 	img 	原图片
+ *	@param 	size 	缩放比例
+ *
+ *	@return	缩放后的UIImage
+ */
 + (UIImage *)scaleToSize:(UIImage *)img size:(CGSize)size;
-// 图片截取
+
+/**
+ *	@brief	图片截取
+ *
+ *	@param 	image 	原图片
+ *	@param 	mCGRect 	截取区域
+ *	@param 	centerBool 	是否以中心点截取（如果YES，截取区域的origin无效）
+ *
+ *	@return	截取后图片
+ */
 + (UIImage*)getSubImage:(UIImage *)image mCGRect:(CGRect)mCGRect centerBool:(BOOL)centerBool;
 @end

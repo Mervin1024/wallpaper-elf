@@ -27,7 +27,7 @@
                         highlightedImage:(NSString*)highlightedImageName
                                   target:(id)target
                                   action:(SEL)action{
-    BOOL use2X = ![MERBoolHelper isPad];
+    BOOL use2X = !IPAD;
     
     return [self createButtonWithNormalImage:normalImageName
                             highlightedImage:highlightedImageName
@@ -67,8 +67,8 @@
                             action:(SEL)action
 {
     CGSize size = [title sizeWithAttributes:@{ NSFontAttributeName : font }];
-    size.width += [MERBoolHelper isPad] ? 10 : 5;
-    size.height += [MERBoolHelper isPad] ? 10 : 5;
+    size.width += IPAD ? 10 : 5;
+    size.height += IPAD ? 10 : 5;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom]; //创建圆角矩形button
     [button setFrame:CGRectMake(0, 0, size.width, size.height)]; //设置button的frame
     [button setTitle:title forState:UIControlStateNormal]; //设置button的标题

@@ -10,8 +10,4 @@
 
 @implementation MERBoolHelper
 
-+ (BOOL)isPad{
-    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
-}
-
 @end

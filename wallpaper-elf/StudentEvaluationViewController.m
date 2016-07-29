@@ -132,7 +132,7 @@
 }
 
 - (void)creatTopView {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
     WS(ws);     // weakSelf
     // 底层view
     topView = [UIView new];

@@ -10,6 +10,4 @@
 
 @interface MERBoolHelper : NSObject
 
-+ (BOOL)isPad;
-
 @end

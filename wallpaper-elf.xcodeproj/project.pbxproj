@@ -50,6 +50,8 @@
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
 		D8CEC08F1D4893050002718A /* StudentEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC08E1D4893050002718A /* StudentEvaluationViewController.m */; };
 		D8CEC0921D489BB40002718A /* iphone6Copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0911D489BB40002718A /* iphone6Copy2.png */; };
+		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
+		D8CEC0981D4AFBD10002718A /* UIView+RectangularProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4521D3351A4009DDEBC /* TeacherEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4511D3351A4009DDEBC /* TeacherEvaluationViewController.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
@@ -140,6 +142,10 @@
 		D8CEC08E1D4893050002718A /* StudentEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEvaluationViewController.m; sourceTree = "<group>"; };
 		D8CEC0901D4895AC0002718A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
 		D8CEC0911D489BB40002718A /* iphone6Copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6Copy2.png; sourceTree = "<group>"; };
+		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
+		D8CEC0941D4AF3150002718A /* MERUITransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUITransform.m; sourceTree = "<group>"; };
+		D8CEC0961D4AFBD10002718A /* UIView+RectangularProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RectangularProperty.h"; sourceTree = "<group>"; };
+		D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RectangularProperty.m"; sourceTree = "<group>"; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -280,6 +286,8 @@
 		D81FA1C41D38DE10003F02CC /* categories */ = {
 			isa = PBXGroup;
 			children = (
+				D8CEC0961D4AFBD10002718A /* UIView+RectangularProperty.h */,
+				D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */,
 			);
 			name = categories;
 			path = Common/categories;
@@ -399,6 +407,8 @@
 				D8DAD4BE1D364531009DDEBC /* MERUICreator.m */,
 				D87A0ED81D39DB2800810EB8 /* MERImageHelper.h */,
 				D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */,
+				D8CEC0931D4AF3150002718A /* MERUITransform.h */,
+				D8CEC0941D4AF3150002718A /* MERUITransform.m */,
 			);
 			name = "工具类";
 			path = "Common/工具类";
@@ -714,10 +724,12 @@
 				D87A0EA71D39CD7D00810EB8 /* TagSelectViewController.m in Sources */,
 				D87A0EA81D39CD7D00810EB8 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
+				D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
 				D8CEC08F1D4893050002718A /* StudentEvaluationViewController.m in Sources */,
 				D81FA1BB1D38D66A003F02CC /* LayerAnimationViewController.m in Sources */,
 				D87A0EAE1D39D21600810EB8 /* HeartBeatView.m in Sources */,
+				D8CEC0981D4AFBD10002718A /* UIView+RectangularProperty.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
 			);
