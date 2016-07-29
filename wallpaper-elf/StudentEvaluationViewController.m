@@ -205,7 +205,10 @@
     [continerView addSubview:userNameLabel];
     
     // 心形点赞按钮
-    heartButton = [HeartClickView new];
+    if (!heartButton) {
+        heartButton = [HeartClickView new];
+    }
+//    heartButton = [HeartClickView new];
     [continerView addSubview:heartButton];
     
     // 反馈
