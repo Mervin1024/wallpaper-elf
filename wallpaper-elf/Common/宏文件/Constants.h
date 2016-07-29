@@ -15,6 +15,7 @@
 #import "Colors.h"
 #import "ImageHelper.h"
 #import "MobileDevice.h"
+#import "ViewHelper.h"
 
 #define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
 

@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MEREditableImageView : UIImageView
+@class MEREditableImageView;
+typedef void(^deleteCompleted)(MEREditableImageView *view);
+
+@interface MEREditableImageView : UIView
+
+@property (nonatomic, copy) deleteCompleted deleteBlock;
+
+- (instancetype)initWithImage:(UIImage *)image;
+- (instancetype)initWithImageName:(NSString *)imageName;
 
 @end

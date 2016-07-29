@@ -10,7 +10,7 @@
 		4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */; };
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
-		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */; };
+		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */; };
 		D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA19D1D3896EC003F02CC /* HeartClickView.m */; };
 		D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */; };
 		D81FA1A51D389794003F02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A31D389794003F02CC /* Main.storyboard */; };
@@ -45,7 +45,6 @@
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
 		D8CEC0921D489BB40002718A /* iphone6Copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0911D489BB40002718A /* iphone6Copy2.png */; };
 		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
-		D8CEC0981D4AFBD10002718A /* UIView+RectangularProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */; };
 		D8CEC0A71D4B08840002718A /* HeartBeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC09B1D4B08840002718A /* HeartBeatView.m */; };
 		D8CEC0A81D4B08840002718A /* LayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC09D1D4B08840002718A /* LayerAnimationViewController.m */; };
 		D8CEC0A91D4B08840002718A /* selectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC09E1D4B08840002718A /* selectedBackground.png */; };
@@ -54,6 +53,12 @@
 		D8CEC0AC1D4B08840002718A /* TeacherEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A41D4B08840002718A /* TeacherEvaluationViewController.m */; };
 		D8CEC0AD1D4B08840002718A /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A61D4B08840002718A /* UICollectionViewLeftAlignedLayout.m */; };
 		D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */; };
+		D8CEC0B91D4B520E0002718A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B71D4B520E0002718A /* delete.png */; };
+		D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B81D4B520E0002718A /* rotate.png */; };
+		D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BB1D4B544E0002718A /* Restore.png */; };
+		D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BD1D4B54F00002718A /* reversal.png */; };
+		D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */; };
+		D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
 		D8DAD4651D3351A4009DDEBC /* wallpaper_elfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4641D3351A4009DDEBC /* wallpaper_elfTests.m */; };
@@ -89,7 +94,7 @@
 		9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg; sourceTree = "<group>"; };
+		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg"; sourceTree = "<group>"; };
 		D81FA19C1D3896EC003F02CC /* HeartClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartClickView.h; sourceTree = "<group>"; };
 		D81FA19D1D3896EC003F02CC /* HeartClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartClickView.m; sourceTree = "<group>"; };
 		D81FA19F1D389779003F02CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
@@ -134,8 +139,6 @@
 		D8CEC0911D489BB40002718A /* iphone6Copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6Copy2.png; sourceTree = "<group>"; };
 		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
 		D8CEC0941D4AF3150002718A /* MERUITransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUITransform.m; sourceTree = "<group>"; };
-		D8CEC0961D4AFBD10002718A /* UIView+RectangularProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RectangularProperty.h"; sourceTree = "<group>"; };
-		D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RectangularProperty.m"; sourceTree = "<group>"; };
 		D8CEC09A1D4B08840002718A /* HeartBeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeatView.h; sourceTree = "<group>"; };
 		D8CEC09B1D4B08840002718A /* HeartBeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeatView.m; sourceTree = "<group>"; };
 		D8CEC09C1D4B08840002718A /* LayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationViewController.h; sourceTree = "<group>"; };
@@ -151,6 +154,14 @@
 		D8CEC0A61D4B08840002718A /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		D8CEC0AF1D4B0BB00002718A /* MEREditableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEREditableImageView.h; sourceTree = "<group>"; };
 		D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEREditableImageView.m; sourceTree = "<group>"; };
+		D8CEC0B71D4B520E0002718A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		D8CEC0B81D4B520E0002718A /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
+		D8CEC0BB1D4B544E0002718A /* Restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restore.png; sourceTree = "<group>"; };
+		D8CEC0BD1D4B54F00002718A /* reversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reversal.png; sourceTree = "<group>"; };
+		D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedImage.png; sourceTree = "<group>"; };
+		D8CEC0C11D4B66310002718A /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
+		D8CEC0C21D4B7B9A0002718A /* MBProgressHUD+MER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MER.h"; sourceTree = "<group>"; };
+		D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MER.m"; sourceTree = "<group>"; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -243,11 +254,12 @@
 		D81FA1A71D3897E1003F02CC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D8CEC0B21D4B4AEC0002718A /* 1.0.0 */,
 				D87A0EAF1D39D29700810EB8 /* HeartAnimation */,
 				D81FA1A81D389803003F02CC /* fullHeart.png */,
 				D81FA1A91D389803003F02CC /* fullHeart@2x.png */,
 				D81FA1AA1D389803003F02CC /* fullHeart@3x.png */,
-				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg */,
+				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */,
 				D81FA1AE1D38981B003F02CC /* notFullHeart.png */,
 				D81FA1AF1D38981B003F02CC /* notFullHeart@2x.png */,
 				D81FA1B01D38981B003F02CC /* notFullHeart@3x.png */,
@@ -264,6 +276,7 @@
 				D81FA1C21D38DDDE003F02CC /* ImageHelper.h */,
 				D81FA1C31D38DDDE003F02CC /* NotificationNames.h */,
 				D8CEC0901D4895AC0002718A /* MobileDevice.h */,
+				D8CEC0C11D4B66310002718A /* ViewHelper.h */,
 			);
 			name = "宏文件";
 			path = "Common/宏文件";
@@ -272,8 +285,8 @@
 		D81FA1C41D38DE10003F02CC /* categories */ = {
 			isa = PBXGroup;
 			children = (
-				D8CEC0961D4AFBD10002718A /* UIView+RectangularProperty.h */,
-				D8CEC0971D4AFBD10002718A /* UIView+RectangularProperty.m */,
+				D8CEC0C21D4B7B9A0002718A /* MBProgressHUD+MER.h */,
+				D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */,
 			);
 			name = categories;
 			path = Common/categories;
@@ -335,6 +348,18 @@
 				D81FA1B71D389970003F02CC /* ViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8CEC0B21D4B4AEC0002718A /* 1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D8CEC0B71D4B520E0002718A /* delete.png */,
+				D8CEC0B81D4B520E0002718A /* rotate.png */,
+				D8CEC0BB1D4B544E0002718A /* Restore.png */,
+				D8CEC0BD1D4B54F00002718A /* reversal.png */,
+				D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */,
+			);
+			path = 1.0.0;
 			sourceTree = "<group>";
 		};
 		D8DAD43E1D3351A4009DDEBC = {
@@ -556,7 +581,7 @@
 				D87A0ECC1D39D29700810EB8 /* 点赞_00019.png in Resources */,
 				D87A0EC51D39D29700810EB8 /* 点赞_00012.png in Resources */,
 				D87A0ED61D39D29700810EB8 /* 点赞_00029.png in Resources */,
-				D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi.jpg in Resources */,
+				D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */,
 				D87A0EC41D39D29700810EB8 /* 点赞_00011.png in Resources */,
 				D87A0ED51D39D29700810EB8 /* 点赞_00028.png in Resources */,
 				D87A0ED21D39D29700810EB8 /* 点赞_00025.png in Resources */,
@@ -566,15 +591,20 @@
 				D87A0ED41D39D29700810EB8 /* 点赞_00027.png in Resources */,
 				D87A0ECD1D39D29700810EB8 /* 点赞_00020.png in Resources */,
 				D87A0ECA1D39D29700810EB8 /* 点赞_00017.png in Resources */,
+				D8CEC0B91D4B520E0002718A /* delete.png in Resources */,
 				D87A0EC81D39D29700810EB8 /* 点赞_00015.png in Resources */,
 				D81FA1AC1D389803003F02CC /* fullHeart@2x.png in Resources */,
 				D87A0ECB1D39D29700810EB8 /* 点赞_00018.png in Resources */,
 				D87A0EC71D39D29700810EB8 /* 点赞_00014.png in Resources */,
 				D81FA1AD1D389803003F02CC /* fullHeart@3x.png in Resources */,
 				D8CEC0A91D4B08840002718A /* selectedBackground.png in Resources */,
+				D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */,
 				D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */,
+				D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */,
+				D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */,
 				D87A0ED71D39D29700810EB8 /* 点赞_00030.png in Resources */,
 				D81FA1A51D389794003F02CC /* Main.storyboard in Resources */,
+				D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */,
 				D81FA1AB1D389803003F02CC /* fullHeart.png in Resources */,
 				D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */,
 				D81FA1B31D38981B003F02CC /* notFullHeart@3x.png in Resources */,
@@ -734,6 +764,7 @@
 			files = (
 				D8CEC0A81D4B08840002718A /* LayerAnimationViewController.m in Sources */,
 				D81FA1B81D389970003F02CC /* ViewController.m in Sources */,
+				D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */,
 				D8CEC0AB1D4B08840002718A /* TagSelectViewController.m in Sources */,
 				D8CEC0A71D4B08840002718A /* HeartBeatView.m in Sources */,
 				D8CEC0AD1D4B08840002718A /* UICollectionViewLeftAlignedLayout.m in Sources */,
@@ -743,7 +774,6 @@
 				D8CEC0AA1D4B08840002718A /* StudentEvaluationViewController.m in Sources */,
 				D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
-				D8CEC0981D4AFBD10002718A /* UIView+RectangularProperty.m in Sources */,
 				D8CEC0AC1D4B08840002718A /* TeacherEvaluationViewController.m in Sources */,
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,

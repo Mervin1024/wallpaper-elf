@@ -15,11 +15,12 @@
 #import "TeacherEvaluationViewController.h"
 #import "StudentEvaluationViewController.h"
 #import "MERUITransform.h"
+#import "MEREditableImageView.h"
 
 @interface ViewController (){
-    NSArray *evaluationTags; // 服务器获取的所有评论tag
+    NSMutableArray *images;
 }
-@property (nonatomic, copy) NSArray *feedbackItems; //提供的反馈条目
+
 @end
 
 @implementation ViewController{
@@ -28,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = NewBlueColor;
 //    HeartClickView *heartView = [HeartClickView new];
 //    [self.view addSubview:heartView];
 //    WS(ws);
@@ -41,13 +42,19 @@
 //    [self addChildViewController:childController];
 //    [self.view addSubview:childController.view];
     
-    HeartClickView *view = [[HeartClickView alloc] init];
+//    HeartClickView *view = [[HeartClickView alloc] init];
+//    view.center = self.view.center;
+//    [self.view addSubview:view];
+    images = [NSMutableArray array];
+    MEREditableImageView *view = [[MEREditableImageView alloc] initWithImage:[UIImage imageNamed:@"83146ca0gw1f4o22z0nevj20m80m8gpi.jpg"]];
+    view.deleteBlock = ^(MEREditableImageView *view){
+        [images removeObject:view];
+        [view removeFromSuperview];
+    };
     view.center = self.view.center;
     [self.view addSubview:view];
+    [images addObject:view];
     
-    [UIView animateWithDuration:3 animations:^{
-        [MERUITransform view:view scaleTransform:2 withTransformAnchor:CGPointMake(1, 1)];
-    }];
 }
 
 

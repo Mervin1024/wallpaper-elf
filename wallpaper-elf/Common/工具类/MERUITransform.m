@@ -7,7 +7,6 @@
 //
 
 #import "MERUITransform.h"
-#import "UIView+RectangularProperty.h"
 
 @implementation MERUITransform
 
@@ -42,8 +41,8 @@
     CGRect frame = view.frame;
     frame.size.width *= vector.x;
     frame.size.height *= vector.y;
-    frame.origin.x += view.width * anchor.x * (1 - vector.x);
-    frame.origin.y += view.height * anchor.y * (1 - vector.y);
+    frame.origin.x += WIDTH_FROM_VIEW(view) * anchor.x * (1 - vector.x);
+    frame.origin.y += HEIGHT_FROM_VIEW(view) * anchor.y * (1 - vector.y);
     view.frame = frame;
 }
 
