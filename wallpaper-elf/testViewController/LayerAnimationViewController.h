@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LayerAnimationViewController.h
 //  wallpaper-elf
 //
 //  Created by mervin on 16/7/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LayerAnimationViewController : UIViewController
 
 @end

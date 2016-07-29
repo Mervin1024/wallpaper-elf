@@ -9,6 +9,7 @@
     pod 'Colours', '~> 5.5.0'
     pod 'Masonry', '~> 1.0.0'
     pod 'MJRefresh', '~> 3.1.10'
+    pod 'MJExtension', '~> 3.0.11'
 
 target 'wallpaper-elf' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
