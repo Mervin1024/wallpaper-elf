@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @class MEREditableImageView;
-typedef void(^deleteCompleted)(MEREditableImageView *view);
 
 @interface MEREditableImageView : UIView
 
-@property (nonatomic, copy) deleteCompleted deleteBlock;
+@property (nonatomic, copy) void(^deleteBlock)(MEREditableImageView *view); //删除后的回调
+@property (nonatomic, assign, getter=isEditable) BOOL editable; // 是否开启可编辑状态
 
 - (instancetype)initWithImage:(UIImage *)image;
 - (instancetype)initWithImageName:(NSString *)imageName;

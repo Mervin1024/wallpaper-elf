@@ -45,13 +45,6 @@
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
 		D8CEC0921D489BB40002718A /* iphone6Copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0911D489BB40002718A /* iphone6Copy2.png */; };
 		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
-		D8CEC0A71D4B08840002718A /* HeartBeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC09B1D4B08840002718A /* HeartBeatView.m */; };
-		D8CEC0A81D4B08840002718A /* LayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC09D1D4B08840002718A /* LayerAnimationViewController.m */; };
-		D8CEC0A91D4B08840002718A /* selectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC09E1D4B08840002718A /* selectedBackground.png */; };
-		D8CEC0AA1D4B08840002718A /* StudentEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A01D4B08840002718A /* StudentEvaluationViewController.m */; };
-		D8CEC0AB1D4B08840002718A /* TagSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A21D4B08840002718A /* TagSelectViewController.m */; };
-		D8CEC0AC1D4B08840002718A /* TeacherEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A41D4B08840002718A /* TeacherEvaluationViewController.m */; };
-		D8CEC0AD1D4B08840002718A /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0A61D4B08840002718A /* UICollectionViewLeftAlignedLayout.m */; };
 		D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */; };
 		D8CEC0B91D4B520E0002718A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B71D4B520E0002718A /* delete.png */; };
 		D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B81D4B520E0002718A /* rotate.png */; };
@@ -59,6 +52,13 @@
 		D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BD1D4B54F00002718A /* reversal.png */; };
 		D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */; };
 		D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */; };
+		D8CEC0D21D4C45730002718A /* HeartBeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C61D4C45730002718A /* HeartBeatView.m */; };
+		D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */; };
+		D8CEC0D41D4C45730002718A /* selectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0C91D4C45730002718A /* selectedBackground.png */; };
+		D8CEC0D51D4C45730002718A /* StudentEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0CB1D4C45730002718A /* StudentEvaluationViewController.m */; };
+		D8CEC0D61D4C45730002718A /* TagSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0CD1D4C45730002718A /* TagSelectViewController.m */; };
+		D8CEC0D71D4C45730002718A /* TeacherEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0CF1D4C45730002718A /* TeacherEvaluationViewController.m */; };
+		D8CEC0D81D4C45730002718A /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0D11D4C45730002718A /* UICollectionViewLeftAlignedLayout.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
 		D8DAD4651D3351A4009DDEBC /* wallpaper_elfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4641D3351A4009DDEBC /* wallpaper_elfTests.m */; };
@@ -139,19 +139,6 @@
 		D8CEC0911D489BB40002718A /* iphone6Copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6Copy2.png; sourceTree = "<group>"; };
 		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
 		D8CEC0941D4AF3150002718A /* MERUITransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUITransform.m; sourceTree = "<group>"; };
-		D8CEC09A1D4B08840002718A /* HeartBeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeatView.h; sourceTree = "<group>"; };
-		D8CEC09B1D4B08840002718A /* HeartBeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeatView.m; sourceTree = "<group>"; };
-		D8CEC09C1D4B08840002718A /* LayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationViewController.h; sourceTree = "<group>"; };
-		D8CEC09D1D4B08840002718A /* LayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationViewController.m; sourceTree = "<group>"; };
-		D8CEC09E1D4B08840002718A /* selectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedBackground.png; sourceTree = "<group>"; };
-		D8CEC09F1D4B08840002718A /* StudentEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEvaluationViewController.h; sourceTree = "<group>"; };
-		D8CEC0A01D4B08840002718A /* StudentEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEvaluationViewController.m; sourceTree = "<group>"; };
-		D8CEC0A11D4B08840002718A /* TagSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSelectViewController.h; sourceTree = "<group>"; };
-		D8CEC0A21D4B08840002718A /* TagSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSelectViewController.m; sourceTree = "<group>"; };
-		D8CEC0A31D4B08840002718A /* TeacherEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherEvaluationViewController.h; sourceTree = "<group>"; };
-		D8CEC0A41D4B08840002718A /* TeacherEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherEvaluationViewController.m; sourceTree = "<group>"; };
-		D8CEC0A51D4B08840002718A /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
-		D8CEC0A61D4B08840002718A /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		D8CEC0AF1D4B0BB00002718A /* MEREditableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEREditableImageView.h; sourceTree = "<group>"; };
 		D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEREditableImageView.m; sourceTree = "<group>"; };
 		D8CEC0B71D4B520E0002718A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
@@ -162,6 +149,19 @@
 		D8CEC0C11D4B66310002718A /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		D8CEC0C21D4B7B9A0002718A /* MBProgressHUD+MER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MER.h"; sourceTree = "<group>"; };
 		D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MER.m"; sourceTree = "<group>"; };
+		D8CEC0C51D4C45730002718A /* HeartBeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeatView.h; sourceTree = "<group>"; };
+		D8CEC0C61D4C45730002718A /* HeartBeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeatView.m; sourceTree = "<group>"; };
+		D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationViewController.h; sourceTree = "<group>"; };
+		D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationViewController.m; sourceTree = "<group>"; };
+		D8CEC0C91D4C45730002718A /* selectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedBackground.png; sourceTree = "<group>"; };
+		D8CEC0CA1D4C45730002718A /* StudentEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEvaluationViewController.h; sourceTree = "<group>"; };
+		D8CEC0CB1D4C45730002718A /* StudentEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEvaluationViewController.m; sourceTree = "<group>"; };
+		D8CEC0CC1D4C45730002718A /* TagSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSelectViewController.h; sourceTree = "<group>"; };
+		D8CEC0CD1D4C45730002718A /* TagSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSelectViewController.m; sourceTree = "<group>"; };
+		D8CEC0CE1D4C45730002718A /* TeacherEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherEvaluationViewController.h; sourceTree = "<group>"; };
+		D8CEC0CF1D4C45730002718A /* TeacherEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherEvaluationViewController.m; sourceTree = "<group>"; };
+		D8CEC0D01D4C45730002718A /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		D8CEC0D11D4C45730002718A /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -322,19 +322,19 @@
 		D8CEC0991D4B08840002718A /* testViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D8CEC09A1D4B08840002718A /* HeartBeatView.h */,
-				D8CEC09B1D4B08840002718A /* HeartBeatView.m */,
-				D8CEC09C1D4B08840002718A /* LayerAnimationViewController.h */,
-				D8CEC09D1D4B08840002718A /* LayerAnimationViewController.m */,
-				D8CEC09E1D4B08840002718A /* selectedBackground.png */,
-				D8CEC09F1D4B08840002718A /* StudentEvaluationViewController.h */,
-				D8CEC0A01D4B08840002718A /* StudentEvaluationViewController.m */,
-				D8CEC0A11D4B08840002718A /* TagSelectViewController.h */,
-				D8CEC0A21D4B08840002718A /* TagSelectViewController.m */,
-				D8CEC0A31D4B08840002718A /* TeacherEvaluationViewController.h */,
-				D8CEC0A41D4B08840002718A /* TeacherEvaluationViewController.m */,
-				D8CEC0A51D4B08840002718A /* UICollectionViewLeftAlignedLayout.h */,
-				D8CEC0A61D4B08840002718A /* UICollectionViewLeftAlignedLayout.m */,
+				D8CEC0C51D4C45730002718A /* HeartBeatView.h */,
+				D8CEC0C61D4C45730002718A /* HeartBeatView.m */,
+				D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */,
+				D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */,
+				D8CEC0C91D4C45730002718A /* selectedBackground.png */,
+				D8CEC0CA1D4C45730002718A /* StudentEvaluationViewController.h */,
+				D8CEC0CB1D4C45730002718A /* StudentEvaluationViewController.m */,
+				D8CEC0CC1D4C45730002718A /* TagSelectViewController.h */,
+				D8CEC0CD1D4C45730002718A /* TagSelectViewController.m */,
+				D8CEC0CE1D4C45730002718A /* TeacherEvaluationViewController.h */,
+				D8CEC0CF1D4C45730002718A /* TeacherEvaluationViewController.m */,
+				D8CEC0D01D4C45730002718A /* UICollectionViewLeftAlignedLayout.h */,
+				D8CEC0D11D4C45730002718A /* UICollectionViewLeftAlignedLayout.m */,
 			);
 			name = testViewController;
 			path = ../testViewController;
@@ -580,6 +580,7 @@
 			files = (
 				D87A0ECC1D39D29700810EB8 /* 点赞_00019.png in Resources */,
 				D87A0EC51D39D29700810EB8 /* 点赞_00012.png in Resources */,
+				D8CEC0D41D4C45730002718A /* selectedBackground.png in Resources */,
 				D87A0ED61D39D29700810EB8 /* 点赞_00029.png in Resources */,
 				D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */,
 				D87A0EC41D39D29700810EB8 /* 点赞_00011.png in Resources */,
@@ -597,7 +598,6 @@
 				D87A0ECB1D39D29700810EB8 /* 点赞_00018.png in Resources */,
 				D87A0EC71D39D29700810EB8 /* 点赞_00014.png in Resources */,
 				D81FA1AD1D389803003F02CC /* fullHeart@3x.png in Resources */,
-				D8CEC0A91D4B08840002718A /* selectedBackground.png in Resources */,
 				D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */,
 				D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */,
 				D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */,
@@ -762,20 +762,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CEC0A81D4B08840002718A /* LayerAnimationViewController.m in Sources */,
 				D81FA1B81D389970003F02CC /* ViewController.m in Sources */,
 				D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */,
-				D8CEC0AB1D4B08840002718A /* TagSelectViewController.m in Sources */,
-				D8CEC0A71D4B08840002718A /* HeartBeatView.m in Sources */,
-				D8CEC0AD1D4B08840002718A /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				D8CEC0D61D4C45730002718A /* TagSelectViewController.m in Sources */,
+				D8CEC0D81D4C45730002718A /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				D8CEC0D21D4C45730002718A /* HeartBeatView.m in Sources */,
 				D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */,
 				D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */,
+				D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */,
+				D8CEC0D51D4C45730002718A /* StudentEvaluationViewController.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
-				D8CEC0AA1D4B08840002718A /* StudentEvaluationViewController.m in Sources */,
 				D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
-				D8CEC0AC1D4B08840002718A /* TeacherEvaluationViewController.m in Sources */,
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
+				D8CEC0D71D4C45730002718A /* TeacherEvaluationViewController.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
 			);

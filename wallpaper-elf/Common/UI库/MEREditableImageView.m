@@ -21,11 +21,10 @@
     UIButton *rotateButton;     // 旋转按钮
     UIButton *restoreButton;    // 复原按钮
     
-    
+    UITapGestureRecognizer *editableTap;
+    UIPanGestureRecognizer *movePan;
 }
 
-@property (nonatomic, strong) UITapGestureRecognizer *tap;
-@property (nonatomic, assign, getter=isEditable) BOOL editable; // 是否开启可编辑状态
 @property (nonatomic, assign, getter=isReversal) BOOL reversal; // 翻转状态
 
 @end
@@ -56,8 +55,10 @@ static CGFloat editViewOffset = 7;
     self.backgroundColor = Color_Clear;
     containerView = [[UIImageView alloc] initWithImage:image];
     containerView.userInteractionEnabled = YES;
-    _tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageDidClicked)];
-    [containerView addGestureRecognizer:_tap];
+    editableTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageDidClicked)];
+    movePan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(imageDidMoved:)];
+    [containerView addGestureRecognizer:editableTap];
+    
     
     self.bounds = CGRectMake(0, 0, WIDTH_FROM_VIEW(containerView)+editViewOffset*2, HEIGHT_FROM_VIEW(containerView)+editViewOffset*2);
     [self addSubview:containerView];
@@ -124,6 +125,15 @@ static CGFloat editViewOffset = 7;
     reversalButton.hidden = !editable;
     rotateButton.hidden = !editable;
     restoreButton.hidden = !editable;
+    if (editable) {
+        if (self.superview) {
+            [self.superview bringSubviewToFront:self];
+        }
+        [self addGestureRecognizer:movePan];
+    } else {
+        [self removeGestureRecognizer:movePan];
+    }
+    
 }
 
 - (void)setReversal:(BOOL)reversal{
@@ -134,8 +144,25 @@ static CGFloat editViewOffset = 7;
 #pragma mark - Action
 
 - (void)imageDidClicked{
-    NSLog(@"点我(⊙v⊙)");
-    self.editable = !self.isEditable;
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NewImageBecomesTheFirstResponder object:self];
+}
+
+- (void)imageDidMoved:(UIPanGestureRecognizer *)gestureRecognizer{
+    if (gestureRecognizer.state == UIGestureRecognizerStateChanged) {
+        /*
+         让view跟着手指移动
+         
+         1.获取每次系统捕获到的手指移动的偏移量translation
+         2.根据偏移量translation算出当前view应该出现的位置
+         3.设置view的新frame
+         4.将translation重置为0（十分重要。否则translation每次都会叠加，很快你的view就会移除屏幕！）
+         */
+        
+        CGPoint translation = [gestureRecognizer translationInView:self];
+        self.transform = CGAffineTransformTranslate(self.transform, translation.x, translation.y);
+        [gestureRecognizer setTranslation:CGPointMake(0, 0) inView:self];//  注意一旦你完成上述的移动，将translation重置为0十分重要。否则translation每次都会叠加，很快你的view就会移除屏幕！
+    }
 }
 
 - (void)deleteButtonClicked:(UIButton *)button{
@@ -156,6 +183,7 @@ static CGFloat editViewOffset = 7;
 - (void)rotateButtonClicked:(UIButton *)button{
     // 旋转
     NSLog(@"旋转");
+    self.transform = CGAffineTransformRotate(self.transform, 20);
 }
 
 - (void)restoreButtonClicked:(UIButton *)button{

@@ -9,3 +9,4 @@
 #pragma once
 
 // 所有的通知名称写在这里
+#define NewImageBecomesTheFirstResponder        @"NewImageBecomesTheFirstResponder"
