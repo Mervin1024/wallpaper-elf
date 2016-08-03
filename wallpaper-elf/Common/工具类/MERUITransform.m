@@ -10,6 +10,19 @@
 
 @implementation MERUITransform
 
++ (CGFloat)radianWithStartPoint:(CGPoint)start endPoint:(CGPoint)end{
+    return [self radianWithVector:CGPointMake(end.x - start.x, end.y - start.y)];
+}
+
++ (CGFloat)radianWithVector:(CGPoint)vector{
+    return atan2f(vector.x, vector.y);
+}
+
++ (CGFloat)distanceOfStartPoint:(CGPoint)start endPoint:(CGPoint)end{
+    return sqrtf(powf(end.x - start.x, 2)+powf(end.y - start.y, 2));
+}
+
+#pragma mark - frame属性变换
 + (void)view:(UIView *)view pointTransform:(CGPoint)point{
     CGPoint center = view.center;
     center.x += point.x;

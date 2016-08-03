@@ -82,4 +82,23 @@
     return smallImage;
 }
 
++ (UIImage*)antialiasedImage:(UIImage *)image{
+
+    CGFloat border = 1.0f;
+    CGRect rect = CGRectMake(border, border, image.size.width-2*border, image.size.height-2*border);
+    UIImage *img = nil;
+    
+    UIGraphicsBeginImageContext(CGSizeMake(rect.size.width,rect.size.height));
+    [image drawInRect:CGRectMake(-1, -1, image.size.width, image.size.height)];
+    img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();// 画出小一号图片
+    
+    UIGraphicsBeginImageContext(image.size);
+    [img drawInRect:rect];
+    UIImage* antiImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();// 将小一号图片加入原画布中(边缘产生了空隙)
+    
+    return antiImage;
+}
+
 @end
