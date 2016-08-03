@@ -51,11 +51,11 @@
     [btn setBackgroundImage:highlightedImage forState:UIControlStateHighlighted];
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     
-    if (use2X) {
-        btn.frame = CGRectMake(0, 0, normalImage.size.width/2, normalImage.size.height/2);
-    } else {
+//    if (use2X) {
+//        btn.frame = CGRectMake(0, 0, normalImage.size.width/2, normalImage.size.height/2);
+//    } else {
         btn.frame = CGRectMake(0, 0, normalImage.size.width, normalImage.size.height);
-    }
+//    }
     
     return btn;
 }

@@ -30,4 +30,13 @@
  *	@return	截取后图片
  */
 + (UIImage*)getSubImage:(UIImage *)image mCGRect:(CGRect)mCGRect centerBool:(BOOL)centerBool;
+
+/**
+ *	@brief	创建抗锯齿图像(增加一像素透明边框)
+ *
+ *	@param 	image 	原图片
+ *
+ *	@return	抗锯齿处理后图片
+ */
++ (UIImage*)antialiasedImage:(UIImage *)image;
 @end
