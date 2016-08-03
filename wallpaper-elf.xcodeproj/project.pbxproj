@@ -11,6 +11,9 @@
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
 		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */; };
+		D81F0B531D51FC0A00EC31C1 /* BFEPopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81F0B521D51FC0A00EC31C1 /* BFEPopTableViewController.m */; };
+		D81F0B561D51FC2F00EC31C1 /* AdjustClassNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81F0B551D51FC2F00EC31C1 /* AdjustClassNumController.m */; };
+		D81F0B591D51FE2200EC31C1 /* BFEPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D81F0B581D51FE2200EC31C1 /* BFEPopMenuView.m */; };
 		D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA19D1D3896EC003F02CC /* HeartClickView.m */; };
 		D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */; };
 		D81FA1A51D389794003F02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A31D389794003F02CC /* Main.storyboard */; };
@@ -95,6 +98,12 @@
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg"; sourceTree = "<group>"; };
+		D81F0B511D51FC0A00EC31C1 /* BFEPopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEPopTableViewController.h; sourceTree = "<group>"; };
+		D81F0B521D51FC0A00EC31C1 /* BFEPopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEPopTableViewController.m; sourceTree = "<group>"; };
+		D81F0B541D51FC2F00EC31C1 /* AdjustClassNumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustClassNumController.h; sourceTree = "<group>"; };
+		D81F0B551D51FC2F00EC31C1 /* AdjustClassNumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustClassNumController.m; sourceTree = "<group>"; };
+		D81F0B571D51FE2200EC31C1 /* BFEPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEPopMenuView.h; sourceTree = "<group>"; };
+		D81F0B581D51FE2200EC31C1 /* BFEPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEPopMenuView.m; sourceTree = "<group>"; };
 		D81FA19C1D3896EC003F02CC /* HeartClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartClickView.h; sourceTree = "<group>"; };
 		D81FA19D1D3896EC003F02CC /* HeartClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartClickView.m; sourceTree = "<group>"; };
 		D81FA19F1D389779003F02CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
@@ -333,6 +342,12 @@
 				D8CEC0CD1D4C45730002718A /* TagSelectViewController.m */,
 				D8CEC0CE1D4C45730002718A /* TeacherEvaluationViewController.h */,
 				D8CEC0CF1D4C45730002718A /* TeacherEvaluationViewController.m */,
+				D81F0B511D51FC0A00EC31C1 /* BFEPopTableViewController.h */,
+				D81F0B521D51FC0A00EC31C1 /* BFEPopTableViewController.m */,
+				D81F0B571D51FE2200EC31C1 /* BFEPopMenuView.h */,
+				D81F0B581D51FE2200EC31C1 /* BFEPopMenuView.m */,
+				D81F0B541D51FC2F00EC31C1 /* AdjustClassNumController.h */,
+				D81F0B551D51FC2F00EC31C1 /* AdjustClassNumController.m */,
 				D8CEC0D01D4C45730002718A /* UICollectionViewLeftAlignedLayout.h */,
 				D8CEC0D11D4C45730002718A /* UICollectionViewLeftAlignedLayout.m */,
 			);
@@ -763,8 +778,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81FA1B81D389970003F02CC /* ViewController.m in Sources */,
+				D81F0B591D51FE2200EC31C1 /* BFEPopMenuView.m in Sources */,
 				D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */,
 				D8CEC0D61D4C45730002718A /* TagSelectViewController.m in Sources */,
+				D81F0B531D51FC0A00EC31C1 /* BFEPopTableViewController.m in Sources */,
 				D8CEC0D81D4C45730002718A /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				D8CEC0D21D4C45730002718A /* HeartBeatView.m in Sources */,
 				D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */,
@@ -777,6 +794,7 @@
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D8CEC0D71D4C45730002718A /* TeacherEvaluationViewController.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,
+				D81F0B561D51FC2F00EC31C1 /* AdjustClassNumController.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -850,7 +868,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -889,7 +907,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
