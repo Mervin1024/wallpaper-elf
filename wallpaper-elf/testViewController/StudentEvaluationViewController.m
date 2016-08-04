@@ -12,6 +12,8 @@
 #import "Masonry.h"
 #import "UIImageView+WebCache.h"
 #import "MERUICreator.h"
+#import "MBProgressHUD+MER.h"
+#import <MBProgressHUD.h>
 
 @interface StudentEvaluationViewController ()<UIScrollViewDelegate>{
     NSArray *evaluationTags; // 服务器获取的所有评论tag
@@ -90,7 +92,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = NewWhiteColor;
-
+    
+self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"提交" style:UIBarButtonItemStylePlain target:self action:@selector(submitEvaluation:)];
     [self getInitialData];
     [self creatTopView];
     [self creatCustomView];
@@ -129,6 +132,7 @@
     
     [self creatFeedbackView];
     [self creatCustomView];
+    
 }
 
 - (void)creatTopView {
@@ -336,6 +340,7 @@
 - (void)feedbackButtonPressed:(UIButton *)button {
     if (evaluationTags.count == 0) {
         [self getTagsFromSever];
+        [MBProgressHUD showHUDAddedTo:backScrollView animated:YES];
         [self performSelector:@selector(setFeedbackState) withObject:nil afterDelay:0.1];
     }else{
         [self setFeedbackState];
@@ -375,6 +380,9 @@
 
 - (void)submitEvaluationTags{
     NSLog(@"提交");
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 #pragma mark server delegate

@@ -23,6 +23,56 @@
     return lab;
 }
 
++ (UILabel*)createLabel:(NSString*) content frame:(CGRect)frame color:(UIColor*) color font:(UIFont*) font
+{
+    UILabel *lab = [[UILabel alloc] initWithFrame:frame];
+    lab.text = content;
+    lab.textColor = color;
+    lab.backgroundColor = [UIColor clearColor];
+    lab.font = font;
+    lab.adjustsFontSizeToFitWidth = YES;
+    lab.textAlignment = NSTextAlignmentCenter;
+    
+    return lab;
+}
+
++ (UIButton*)createButtonWithTitle:(NSString*)title
+                        titleColor:(UIColor*)titleColor
+                             frame:(CGRect)frame
+                            target:(id)target
+                            action:(SEL)action
+{
+    return [self createButtonWithTitle:title
+                            titleColor:titleColor
+                                  font:nil
+                                 frame:frame
+                            buttonType:UIButtonTypeSystem
+                                target:target
+                                action:action];
+}
+
++ (UIButton*)createButtonWithTitle:(NSString*)title
+                        titleColor:(UIColor*)titleColor
+                              font:(UIFont*)font
+                             frame:(CGRect)frame
+                        buttonType:(UIButtonType)buttonType
+                            target:(id)target
+                            action:(SEL)action
+{
+    UIButton *button = [UIButton buttonWithType:buttonType]; //创建圆角矩形button
+    [button setFrame:frame]; //设置button的frame
+    [button setTitle:title forState:UIControlStateNormal]; //设置button的标题
+    [button setTitleColor:titleColor forState:UIControlStateNormal];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside]; //定义点击时的响应函数
+    button.backgroundColor = [UIColor clearColor];
+    button.titleLabel.backgroundColor = [UIColor clearColor];
+    
+    if (font) {
+        button.titleLabel.font = font;
+    }
+    return button;
+}
+
 + (UIButton*)createButtonWithNormalImage:(NSString*)normalImageName
                         highlightedImage:(NSString*)highlightedImageName
                                   target:(id)target

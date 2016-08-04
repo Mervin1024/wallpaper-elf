@@ -11,7 +11,21 @@
 @interface MERUICreator : NSObject
 
 + (UILabel*)createLabel:(NSString*) content color:(UIColor*) color font:(UIFont*) font;
++ (UILabel*)createLabel:(NSString*) content frame:(CGRect)frame color:(UIColor*) color font:(UIFont*) font;
 
+
++ (UIButton*)createButtonWithTitle:(NSString*)title
+                        titleColor:(UIColor*)titleColor
+                             frame:(CGRect)frame
+                            target:(id)target
+                            action:(SEL)action;
++ (UIButton*)createButtonWithTitle:(NSString*)title
+                        titleColor:(UIColor*)titleColor
+                              font:(UIFont*)font
+                             frame:(CGRect)frame
+                        buttonType:(UIButtonType)buttonType
+                            target:(id)target
+                            action:(SEL)action;
 + (UIButton*)createButtonWithNormalImage:(NSString*)normalImageName
                         highlightedImage:(NSString*)highlightedImageName
                                   target:(id)target
