@@ -16,10 +16,12 @@
 #import "StudentEvaluationViewController.h"
 #import "MERUITransform.h"
 #import "MEREditableImageView.h"
+#import "MERUICreator.h"
 
 @interface ViewController (){
     NSMutableArray *images;
     NSInteger addedImageNum;
+    BOOL isEarly;
 }
 
 @end
@@ -38,7 +40,19 @@
 //    images = [NSMutableArray array];
 //    addedImageNum = 0;
 //    [self addEditableImage];
-    
+    NSArray *evaluationTags = nil;
+    for (NSString *tag in evaluationTags) {
+        NSLog(@"%@",tag);
+    }
+//    isEarly = [dic[@"idEarly"] boolValue];
+//    NSLog(@"%@",isEarly ?@"YES":@"NO");
+//    NSString *res = nil;
+//    NSString *returnMsg = res?:@" ";
+//    
+//    UILabel *lat = [MERUICreator createLabel:returnMsg color:Color_Black font:SYSTEM_FONT(32)];
+//    lat.backgroundColor = Color_Gray;
+//    [self.view addSubview:lat];
+//    lat.center = self.view.center;
     
     
     
@@ -51,9 +65,10 @@
 //        
 //    }];
 //    LayerAnimationViewController *childController = [[LayerAnimationViewController alloc] init];
-    TeacherEvaluationViewController *childController = [[TeacherEvaluationViewController alloc] init];
-    [self addChildViewController:childController];
-    [self.view addSubview:childController.view];
+//    StudentEvaluationViewController *childController = [[StudentEvaluationViewController alloc] init];
+//    [self addChildViewController:childController];
+//    [self.view addSubview:childController.view];
+//    [self presentViewController:childController animated:YES completion:nil];
     
 //    HeartClickView *view = [[HeartClickView alloc] init];
 //    view.center = self.view.center;

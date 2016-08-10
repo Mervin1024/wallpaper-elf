@@ -69,13 +69,7 @@
 		D8DAD47F1D338C2D009DDEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD47E1D338C2D009DDEBC /* main.m */; };
 		D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4BC1D364531009DDEBC /* MERBoolHelper.m */; };
 		D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4BE1D364531009DDEBC /* MERUICreator.m */; };
-		D8FD30D21D52E74A00A99CC4 /* BFETeacherAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30D11D52E74A00A99CC4 /* BFETeacherAlertView.m */; };
 		D8FD30D51D52E7D500A99CC4 /* MERUICommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30D41D52E7D500A99CC4 /* MERUICommonTool.m */; };
-		D8FD30D71D52ED0C00A99CC4 /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FD30D61D52ED0C00A99CC4 /* alert@2x.png */; };
-		D8FD30DC1D52F69E00A99CC4 /* BFEHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30D91D52F69E00A99CC4 /* BFEHTTPServer.m */; };
-		D8FD30DD1D52F69E00A99CC4 /* BFEHTTPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30DB1D52F69E00A99CC4 /* BFEHTTPServerManager.m */; };
-		D8FD30E01D52F6DE00A99CC4 /* BFEHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30DF1D52F6DE00A99CC4 /* BFEHTTPSessionManager.m */; };
-		D8FD30E31D52F98C00A99CC4 /* BFETeacherServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30E21D52F98C00A99CC4 /* BFETeacherServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,19 +188,8 @@
 		D8DAD4BC1D364531009DDEBC /* MERBoolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERBoolHelper.m; sourceTree = "<group>"; };
 		D8DAD4BD1D364531009DDEBC /* MERUICreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUICreator.h; sourceTree = "<group>"; };
 		D8DAD4BE1D364531009DDEBC /* MERUICreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUICreator.m; sourceTree = "<group>"; };
-		D8FD30D01D52E74A00A99CC4 /* BFETeacherAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFETeacherAlertView.h; sourceTree = "<group>"; };
-		D8FD30D11D52E74A00A99CC4 /* BFETeacherAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFETeacherAlertView.m; sourceTree = "<group>"; };
 		D8FD30D31D52E7D500A99CC4 /* MERUICommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUICommonTool.h; sourceTree = "<group>"; };
 		D8FD30D41D52E7D500A99CC4 /* MERUICommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUICommonTool.m; sourceTree = "<group>"; };
-		D8FD30D61D52ED0C00A99CC4 /* alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@2x.png"; sourceTree = "<group>"; };
-		D8FD30D81D52F69E00A99CC4 /* BFEHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEHTTPServer.h; sourceTree = "<group>"; };
-		D8FD30D91D52F69E00A99CC4 /* BFEHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEHTTPServer.m; sourceTree = "<group>"; };
-		D8FD30DA1D52F69E00A99CC4 /* BFEHTTPServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEHTTPServerManager.h; sourceTree = "<group>"; };
-		D8FD30DB1D52F69E00A99CC4 /* BFEHTTPServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEHTTPServerManager.m; sourceTree = "<group>"; };
-		D8FD30DE1D52F6DE00A99CC4 /* BFEHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEHTTPSessionManager.h; sourceTree = "<group>"; };
-		D8FD30DF1D52F6DE00A99CC4 /* BFEHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEHTTPSessionManager.m; sourceTree = "<group>"; };
-		D8FD30E11D52F98C00A99CC4 /* BFETeacherServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFETeacherServer.h; sourceTree = "<group>"; };
-		D8FD30E21D52F98C00A99CC4 /* BFETeacherServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFETeacherServer.m; sourceTree = "<group>"; };
 		F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -286,7 +269,6 @@
 				D8CEC0B21D4B4AEC0002718A /* 1.0.0 */,
 				D87A0EAF1D39D29700810EB8 /* HeartAnimation */,
 				D81FA1A81D389803003F02CC /* fullHeart.png */,
-				D8FD30D61D52ED0C00A99CC4 /* alert@2x.png */,
 				D81FA1A91D389803003F02CC /* fullHeart@2x.png */,
 				D81FA1AA1D389803003F02CC /* fullHeart@3x.png */,
 				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */,
@@ -352,14 +334,6 @@
 		D8CEC0991D4B08840002718A /* testViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D8FD30E11D52F98C00A99CC4 /* BFETeacherServer.h */,
-				D8FD30E21D52F98C00A99CC4 /* BFETeacherServer.m */,
-				D8FD30D81D52F69E00A99CC4 /* BFEHTTPServer.h */,
-				D8FD30D91D52F69E00A99CC4 /* BFEHTTPServer.m */,
-				D8FD30DA1D52F69E00A99CC4 /* BFEHTTPServerManager.h */,
-				D8FD30DB1D52F69E00A99CC4 /* BFEHTTPServerManager.m */,
-				D8FD30DE1D52F6DE00A99CC4 /* BFEHTTPSessionManager.h */,
-				D8FD30DF1D52F6DE00A99CC4 /* BFEHTTPSessionManager.m */,
 				D8CEC0C51D4C45730002718A /* HeartBeatView.h */,
 				D8CEC0C61D4C45730002718A /* HeartBeatView.m */,
 				D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */,
@@ -371,8 +345,6 @@
 				D8CEC0CD1D4C45730002718A /* TagSelectViewController.m */,
 				D8CEC0CE1D4C45730002718A /* TeacherEvaluationViewController.h */,
 				D8CEC0CF1D4C45730002718A /* TeacherEvaluationViewController.m */,
-				D8FD30D01D52E74A00A99CC4 /* BFETeacherAlertView.h */,
-				D8FD30D11D52E74A00A99CC4 /* BFETeacherAlertView.m */,
 				D81F0B511D51FC0A00EC31C1 /* BFEPopTableViewController.h */,
 				D81F0B521D51FC0A00EC31C1 /* BFEPopTableViewController.m */,
 				D81F0B571D51FE2200EC31C1 /* BFEPopMenuView.h */,
@@ -647,7 +619,6 @@
 				D87A0EC71D39D29700810EB8 /* 点赞_00014.png in Resources */,
 				D81FA1AD1D389803003F02CC /* fullHeart@3x.png in Resources */,
 				D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */,
-				D8FD30D71D52ED0C00A99CC4 /* alert@2x.png in Resources */,
 				D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */,
 				D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */,
 				D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */,
@@ -819,7 +790,6 @@
 				D81F0B531D51FC0A00EC31C1 /* BFEPopTableViewController.m in Sources */,
 				D8CEC0D81D4C45730002718A /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				D8CEC0D21D4C45730002718A /* HeartBeatView.m in Sources */,
-				D8FD30DC1D52F69E00A99CC4 /* BFEHTTPServer.m in Sources */,
 				D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */,
 				D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */,
 				D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */,
@@ -829,13 +799,9 @@
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D8CEC0D71D4C45730002718A /* TeacherEvaluationViewController.m in Sources */,
-				D8FD30D21D52E74A00A99CC4 /* BFETeacherAlertView.m in Sources */,
-				D8FD30E31D52F98C00A99CC4 /* BFETeacherServer.m in Sources */,
 				D81FA19E1D3896EC003F02CC /* HeartClickView.m in Sources */,
 				D81F0B561D51FC2F00EC31C1 /* AdjustClassNumController.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
-				D8FD30E01D52F6DE00A99CC4 /* BFEHTTPSessionManager.m in Sources */,
-				D8FD30DD1D52F69E00A99CC4 /* BFEHTTPServerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

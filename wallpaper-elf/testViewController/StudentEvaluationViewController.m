@@ -386,7 +386,9 @@ self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:
 }
 
 #pragma mark server delegate
-
+- (void)dealloc{
+    NSLog(@"点评页释放");
+}
 
 
 @end

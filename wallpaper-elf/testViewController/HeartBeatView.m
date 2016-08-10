@@ -81,6 +81,11 @@
 
 - (void)animationStop{
     [myAnimatedTimer invalidate];
+    myAnimatedTimer = nil;
+}
+
+- (void)dealloc{
+    NSLog(@"释放了！");
 }
 
 @end
