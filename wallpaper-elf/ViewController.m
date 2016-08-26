@@ -7,13 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HeartClickView.h"
 #import "LayerAnimationViewController.h"
-#import "TagSelectViewController.h"
-#import "HeartBeatView.h"
-#import "HeartClickView.h"
-#import "TeacherEvaluationViewController.h"
-#import "StudentEvaluationViewController.h"
 #import "MERUITransform.h"
 #import "MEREditableImageView.h"
 #import "MERUICreator.h"
@@ -40,10 +34,15 @@
 //    images = [NSMutableArray array];
 //    addedImageNum = 0;
 //    [self addEditableImage];
-    NSArray *evaluationTags = nil;
-    for (NSString *tag in evaluationTags) {
-        NSLog(@"%@",tag);
-    }
+    NSString *str = @"file:///var/mobile/Containers/Data/Application/6E02C402-196F-4F22-BA7A-230407309F65/Library/Application%20Support/com.boxfishedu.student/data/student/secretResources/foreignComment/video/foreigncomment/1298909/video/1471960828.MP4";
+    
+    NSLog(@"%@",str);
+    
+    NSString*string =@"sdfsfsfsAdfsdf";
+    NSRange range = [string rangeOfString:@"f"];//匹配得到的下标
+    NSLog(@"rang:%@",NSStringFromRange(range));
+    string = [string substringWithRange:range];//截取范围类的字符串
+    NSLog(@"截取的值为：%@",string);
 //    isEarly = [dic[@"idEarly"] boolValue];
 //    NSLog(@"%@",isEarly ?@"YES":@"NO");
 //    NSString *res = nil;
