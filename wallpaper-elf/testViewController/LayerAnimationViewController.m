@@ -8,6 +8,8 @@
 
 #import "LayerAnimationViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "Masonry.h"
+#import "MERUICreator.h"
 
 @interface LayerAnimationViewController (){
     UIView *layerView;
@@ -20,11 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = NewYellowColor;
+//    self.view.backgroundColor = NewYellowColor;
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismiss)];
     
-    [self creatViews];
-//    [self addBlueLayer];
-    [self addImageLayer];
+    
+//    [self creatViews];
+////    [self addBlueLayer];
+//    [self addImageLayer];
 }
 
 - (void)creatViews{
@@ -54,6 +58,10 @@
 //    layerView.layer.contentsGravity = kCAGravityCenter;
 //    layerView.layer.contentsScale = image.scale;
 //    layerView.layer.contentsRect = CGRectMake(0, 0, 0.5, 0.5);
+}
+
+- (void)dismiss{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

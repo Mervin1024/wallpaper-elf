@@ -8,14 +8,13 @@
 
 #import "ViewController.h"
 #import "LayerAnimationViewController.h"
+#import "testInfoView.h"
 #import "MERUITransform.h"
 #import "MEREditableImageView.h"
 #import "MERUICreator.h"
 
 @interface ViewController (){
-    NSMutableArray *images;
-    NSInteger addedImageNum;
-    BOOL isEarly;
+    testInfoView *infoView;
 }
 
 @end
@@ -26,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = NewBlueColor;
 //    self.view.backgroundColor = NewBlueColor;
 //    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(addEditableImage)];
 //    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(removeAllResponder)];
@@ -34,15 +34,9 @@
 //    images = [NSMutableArray array];
 //    addedImageNum = 0;
 //    [self addEditableImage];
-    NSString *str = @"file:///var/mobile/Containers/Data/Application/6E02C402-196F-4F22-BA7A-230407309F65/Library/Application%20Support/com.boxfishedu.student/data/student/secretResources/foreignComment/video/foreigncomment/1298909/video/1471960828.MP4";
+//    infoView = [[testInfoView alloc] initWithFrame:self.view.bounds buttonShowAllow:NO];
+//    [self.view addSubview:infoView];
     
-    NSLog(@"%@",str);
-    
-    NSString*string =@"sdfsfsfsAdfsdf";
-    NSRange range = [string rangeOfString:@"f"];//匹配得到的下标
-    NSLog(@"rang:%@",NSStringFromRange(range));
-    string = [string substringWithRange:range];//截取范围类的字符串
-    NSLog(@"截取的值为：%@",string);
 //    isEarly = [dic[@"idEarly"] boolValue];
 //    NSLog(@"%@",isEarly ?@"YES":@"NO");
 //    NSString *res = nil;
@@ -63,7 +57,15 @@
 //        make.center.mas_equalTo(ws.view);
 //        
 //    }];
-//    LayerAnimationViewController *childController = [[LayerAnimationViewController alloc] init];
+    LayerAnimationViewController *childControllerA = [[LayerAnimationViewController alloc] init];
+    LayerAnimationViewController *childControllerB = [[LayerAnimationViewController alloc] init];
+    childControllerA.view.backgroundColor = [UIColor redColor];
+    childControllerB.view.backgroundColor = [UIColor greenColor];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:childControllerA animated:YES completion:^{
+        
+    }];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:childControllerB animated:YES completion:nil];
+    
 //    StudentEvaluationViewController *childController = [[StudentEvaluationViewController alloc] init];
 //    [self addChildViewController:childController];
 //    [self.view addSubview:childController.view];

@@ -16,6 +16,8 @@
 		D81FA1B81D389970003F02CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA1B71D389970003F02CC /* ViewController.m */; };
 		D81FA1BD1D38DA5D003F02CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FA1BC1D38DA5D003F02CC /* QuartzCore.framework */; };
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
+		D880F1901D6FDEF5007FEBF1 /* testInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */; };
+		D8BA65C71D6FF16E00BC3DDA /* bgEarn.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */; };
 		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
 		D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */; };
 		D8CEC0B91D4B520E0002718A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B71D4B520E0002718A /* delete.png */; };
@@ -74,6 +76,9 @@
 		D81FA1C31D38DDDE003F02CC /* NotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationNames.h; sourceTree = "<group>"; };
 		D87A0ED81D39DB2800810EB8 /* MERImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERImageHelper.h; sourceTree = "<group>"; };
 		D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERImageHelper.m; sourceTree = "<group>"; };
+		D880F18E1D6FDEF5007FEBF1 /* testInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testInfoView.h; sourceTree = "<group>"; };
+		D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testInfoView.m; sourceTree = "<group>"; };
+		D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgEarn.png; sourceTree = "<group>"; };
 		D8CEC0901D4895AC0002718A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
 		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
 		D8CEC0941D4AF3150002718A /* MERUITransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUITransform.m; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 			children = (
 				D8CEC0B21D4B4AEC0002718A /* 1.0.0 */,
 				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */,
+				D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -216,6 +222,8 @@
 			children = (
 				D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */,
 				D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */,
+				D880F18E1D6FDEF5007FEBF1 /* testInfoView.h */,
+				D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */,
 			);
 			name = testViewController;
 			path = ../testViewController;
@@ -469,6 +477,7 @@
 				D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */,
 				D81FA1A51D389794003F02CC /* Main.storyboard in Resources */,
 				D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */,
+				D8BA65C71D6FF16E00BC3DDA /* bgEarn.png in Resources */,
 				D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,6 +634,7 @@
 				D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
 				D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */,
+				D880F1901D6FDEF5007FEBF1 /* testInfoView.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
@@ -759,6 +769,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "00187bea-e8d4-4546-aa53-736c958aa9e2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -774,6 +785,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "00187bea-e8d4-4546-aa53-736c958aa9e2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

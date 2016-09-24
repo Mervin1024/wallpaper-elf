@@ -11,6 +11,7 @@
 #import "MBProgressHUD+MER.h"
 #import "MERUITransform.h"
 #import "MERImageHelper.h"
+#import "Masonry.h"
 
 @interface MEREditableImageView (){
     UIImage *editableImage;
