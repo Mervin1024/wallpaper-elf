@@ -16,7 +16,7 @@
 #import "MobileDevice.h"
 #import "ViewHelper.h"
 
-#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+#define WS(weakSelf) __weak typeof(&*self)weakSelf = self;
 
 #define SYSTEM_FONT(fontSize)       [UIFont systemFontOfSize:fontSize]
 #define SYSTEM_FONT_BOLD(fontSize)  [UIFont boldSystemFontOfSize:fontSize]
