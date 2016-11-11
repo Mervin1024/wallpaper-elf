@@ -787,7 +787,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "00187bea-e8d4-4546-aa53-736c958aa9e2";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -803,7 +803,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallpaperelf.fabrication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "00187bea-e8d4-4546-aa53-736c958aa9e2";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -25,6 +25,7 @@
     [super viewDidLoad];
     _animationVC = [[LayerAnimationViewController alloc] init];
     [self.navigationController pushViewController:_animationVC animated:YES];
+    
 }
 
 @end

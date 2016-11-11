@@ -35,4 +35,11 @@ NSDictionary* textAttributes = @{NSForegroundColorAttributeName:[UIColor blackCo
 [self.navigationController.navigationBar setTitleTextAttributes:textAttributes];\
 [[UIBarButtonItem appearance] setTitleTextAttributes:textAttributes forState:0];
 
-#define NSLog(...) NSLog(__VA_ARGS__)
+
+#ifdef DEBUG
+#define NSLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(format, ...)
+#define debugMethod()
+#endif
