@@ -35,7 +35,7 @@
 
 - (void)addEditableImage{
     addedImageNum ++;
-    MEREditableImageView *view = [[MEREditableImageView alloc] initWithImage:[UIImage imageNamed:@"83146ca0gw1f4o22z0nevj20m80m8gpi.jpg"]];
+    MEREditableImageView *view = [[MEREditableImageView alloc] initWithImage:[UIImage imageNamed:@"83146ca0gw1f4o22z0nevj20m80m8gpi"]];
     view.deleteBlock = ^(MEREditableImageView *imageView){
         [images removeObject:imageView];
         [imageView removeFromSuperview];

@@ -9,21 +9,16 @@
 /* Begin PBXBuildFile section */
 		4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */; };
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
+		8CA767F62011C75A007B790B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA767F52011C75A007B790B /* OpenGLES.framework */; };
+		8CA767F92011C903007B790B /* MEROpenGLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA767F82011C903007B790B /* MEROpenGLMainViewController.m */; };
+		8CA767FD2011C937007B790B /* MEROpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA767FC2011C937007B790B /* MEROpenGLView.m */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
-		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */; };
 		D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */; };
 		D81FA1A51D389794003F02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A31D389794003F02CC /* Main.storyboard */; };
-		D81FA1B81D389970003F02CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA1B71D389970003F02CC /* ViewController.m */; };
 		D81FA1BD1D38DA5D003F02CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FA1BC1D38DA5D003F02CC /* QuartzCore.framework */; };
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
-		D8BA65C71D6FF16E00BC3DDA /* bgEarn.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */; };
 		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
 		D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */; };
-		D8CEC0B91D4B520E0002718A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B71D4B520E0002718A /* delete.png */; };
-		D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0B81D4B520E0002718A /* rotate.png */; };
-		D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BB1D4B544E0002718A /* Restore.png */; };
-		D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BD1D4B54F00002718A /* reversal.png */; };
-		D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */; };
 		D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
@@ -59,15 +54,17 @@
 		30C3E80DB95B9EAAFD448F03 /* Pods-wallpaper-elf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elf.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf.release.xcconfig"; sourceTree = "<group>"; };
 		4A3AB2DE2E91D9B1B977D13A /* Pods-wallpaper-elf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf.debug.xcconfig"; sourceTree = "<group>"; };
 		5A5F7675885E692E1035C8A2 /* Pods-wallpaper-elfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA767F52011C75A007B790B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CA767F72011C903007B790B /* MEROpenGLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEROpenGLMainViewController.h; sourceTree = "<group>"; };
+		8CA767F82011C903007B790B /* MEROpenGLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEROpenGLMainViewController.m; sourceTree = "<group>"; };
+		8CA767FB2011C937007B790B /* MEROpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEROpenGLView.h; sourceTree = "<group>"; };
+		8CA767FC2011C937007B790B /* MEROpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEROpenGLView.m; sourceTree = "<group>"; };
 		9465855C1DD5414583A616A7 /* Pods-wallpaper-elfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg"; sourceTree = "<group>"; };
 		D81FA19F1D389779003F02CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81FA1A31D389794003F02CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		D81FA1B61D389970003F02CC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		D81FA1B71D389970003F02CC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		D81FA1BC1D38DA5D003F02CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D81FA1C01D38DDDE003F02CC /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		D81FA1C11D38DDDE003F02CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -75,17 +72,11 @@
 		D81FA1C31D38DDDE003F02CC /* NotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationNames.h; sourceTree = "<group>"; };
 		D87A0ED81D39DB2800810EB8 /* MERImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERImageHelper.h; sourceTree = "<group>"; };
 		D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERImageHelper.m; sourceTree = "<group>"; };
-		D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgEarn.png; sourceTree = "<group>"; };
 		D8CEC0901D4895AC0002718A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
 		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
 		D8CEC0941D4AF3150002718A /* MERUITransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUITransform.m; sourceTree = "<group>"; };
 		D8CEC0AF1D4B0BB00002718A /* MEREditableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEREditableImageView.h; sourceTree = "<group>"; };
 		D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEREditableImageView.m; sourceTree = "<group>"; };
-		D8CEC0B71D4B520E0002718A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
-		D8CEC0B81D4B520E0002718A /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
-		D8CEC0BB1D4B544E0002718A /* Restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restore.png; sourceTree = "<group>"; };
-		D8CEC0BD1D4B54F00002718A /* reversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reversal.png; sourceTree = "<group>"; };
-		D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedImage.png; sourceTree = "<group>"; };
 		D8CEC0C11D4B66310002718A /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		D8CEC0C21D4B7B9A0002718A /* MBProgressHUD+MER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MER.h"; sourceTree = "<group>"; };
 		D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MER.m"; sourceTree = "<group>"; };
@@ -117,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA767F62011C75A007B790B /* OpenGLES.framework in Frameworks */,
 				D81FA1BD1D38DA5D003F02CC /* QuartzCore.framework in Frameworks */,
 				4387FEB5B2B58616C5120556 /* libPods-wallpaper-elf.a in Frameworks */,
 			);
@@ -144,12 +136,32 @@
 		1FB37F51A3160E9EE34466A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CA767F52011C75A007B790B /* OpenGLES.framework */,
 				D81FA1BC1D38DA5D003F02CC /* QuartzCore.framework */,
 				27DB11C8B64B56CF10C2E2B7 /* libPods-wallpaper-elf.a */,
 				236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */,
 				ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CA767F42011C72D007B790B /* OpenGl */ = {
+			isa = PBXGroup;
+			children = (
+				8CA767FA2011C924007B790B /* view */,
+				8CA767F72011C903007B790B /* MEROpenGLMainViewController.h */,
+				8CA767F82011C903007B790B /* MEROpenGLMainViewController.m */,
+			);
+			path = OpenGl;
+			sourceTree = "<group>";
+		};
+		8CA767FA2011C924007B790B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8CA767FB2011C937007B790B /* MEROpenGLView.h */,
+				8CA767FC2011C937007B790B /* MEROpenGLView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		D81FA19B1D3896DC003F02CC /* UI库 */ = {
@@ -183,9 +195,6 @@
 		D81FA1A71D3897E1003F02CC /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D8CEC0B21D4B4AEC0002718A /* 1.0.0 */,
-				D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */,
-				D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -217,24 +226,10 @@
 		D8CEC0AE1D4B08BA0002718A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D81FA1B61D389970003F02CC /* ViewController.h */,
-				D81FA1B71D389970003F02CC /* ViewController.m */,
 				D8DE21CC1DB4B7C600589371 /* HomeViewController.h */,
 				D8DE21CD1DB4B7C600589371 /* HomeViewController.m */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D8CEC0B21D4B4AEC0002718A /* 1.0.0 */ = {
-			isa = PBXGroup;
-			children = (
-				D8CEC0B71D4B520E0002718A /* delete.png */,
-				D8CEC0B81D4B520E0002718A /* rotate.png */,
-				D8CEC0BB1D4B544E0002718A /* Restore.png */,
-				D8CEC0BD1D4B54F00002718A /* reversal.png */,
-				D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */,
-			);
-			path = 1.0.0;
 			sourceTree = "<group>";
 		};
 		D8DAD43E1D3351A4009DDEBC = {
@@ -264,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DAD4811D339053009DDEBC /* Common */,
+				8CA767F42011C72D007B790B /* OpenGl */,
 				D8CEC0AE1D4B08BA0002718A /* ViewControllers */,
 				D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */,
 				D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */,
@@ -415,6 +411,7 @@
 		D8DAD43F1D3351A4009DDEBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MER;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mervin;
 				TargetAttributes = {
@@ -458,15 +455,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */,
-				D8CEC0B91D4B520E0002718A /* delete.png in Resources */,
-				D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */,
 				D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */,
-				D8CEC0BC1D4B544E0002718A /* Restore.png in Resources */,
-				D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */,
 				D81FA1A51D389794003F02CC /* Main.storyboard in Resources */,
-				D8CEC0BA1D4B520E0002718A /* rotate.png in Resources */,
-				D8BA65C71D6FF16E00BC3DDA /* bgEarn.png in Resources */,
 				D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,9 +632,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81FA1B81D389970003F02CC /* ViewController.m in Sources */,
 				D8FD30D51D52E7D500A99CC4 /* MERUICommonTool.m in Sources */,
 				D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */,
+				8CA767FD2011C937007B790B /* MEROpenGLView.m in Sources */,
 				D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */,
 				D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
@@ -653,6 +643,7 @@
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
 				D8DE21CE1DB4B7C600589371 /* HomeViewController.m in Sources */,
+				8CA767F92011C903007B790B /* MEROpenGLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
