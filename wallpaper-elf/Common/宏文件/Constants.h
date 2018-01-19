@@ -17,6 +17,7 @@
 #import "ViewHelper.h"
 
 #define WS(weakSelf) __weak typeof(&*self)weakSelf = self;
+#define SS(strongSelf, weakSelf) __strong typeof(&*weakSelf)strongSelf = weakSelf;
 
 #define SYSTEM_FONT(fontSize)       [UIFont systemFontOfSize:fontSize]
 #define SYSTEM_FONT_BOLD(fontSize)  [UIFont boldSystemFontOfSize:fontSize]

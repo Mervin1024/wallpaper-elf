@@ -10,10 +10,9 @@
 #import "MERUITransform.h"
 #import "MEREditableImageView.h"
 #import "MERUICreator.h"
-#import "LayerAnimationViewController.h"
 
 @interface ViewController (){
-    LayerAnimationViewController *_animationVC;
+    
 }
 
 @end
@@ -23,9 +22,12 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    _animationVC = [[LayerAnimationViewController alloc] init];
-    [self.navigationController pushViewController:_animationVC animated:YES];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:(UIBarButtonSystemItemEdit) target:self action:@selector(openTestView:)];
     
+}
+
+- (void)openTestView:(id)sender {
+//    [self presentViewController:_animationVC animated:YES completion:nil];
 }
 
 @end

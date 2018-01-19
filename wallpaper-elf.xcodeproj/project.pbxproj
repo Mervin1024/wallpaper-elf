@@ -11,13 +11,11 @@
 		8AA663B1A78FCF5D22EB6957 /* libPods-wallpaper-elfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */; };
 		B161E63E45664FDAEBBA8D88 /* libPods-wallpaper-elfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CB7F8E23F83230BCF342E /* libPods-wallpaper-elfTests.a */; };
 		D811DCA61D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */; };
-		D81B44661DCC852000E5AD0D /* LayerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B44651DCC852000E5AD0D /* LayerAnimationView.m */; };
 		D81FA1A41D389794003F02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */; };
 		D81FA1A51D389794003F02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81FA1A31D389794003F02CC /* Main.storyboard */; };
 		D81FA1B81D389970003F02CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FA1B71D389970003F02CC /* ViewController.m */; };
 		D81FA1BD1D38DA5D003F02CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FA1BC1D38DA5D003F02CC /* QuartzCore.framework */; };
 		D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */; };
-		D880F1901D6FDEF5007FEBF1 /* testInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */; };
 		D8BA65C71D6FF16E00BC3DDA /* bgEarn.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */; };
 		D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0941D4AF3150002718A /* MERUITransform.m */; };
 		D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */; };
@@ -27,7 +25,6 @@
 		D8CEC0BE1D4B54F00002718A /* reversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BD1D4B54F00002718A /* reversal.png */; };
 		D8CEC0C01D4B5AEB0002718A /* selectedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEC0BF1D4B5AEB0002718A /* selectedImage.png */; };
 		D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */; };
-		D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */; };
 		D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */; };
 		D8DAD4571D3351A4009DDEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAD4561D3351A4009DDEBC /* Assets.xcassets */; };
 		D8DAD4651D3351A4009DDEBC /* wallpaper_elfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4641D3351A4009DDEBC /* wallpaper_elfTests.m */; };
@@ -36,7 +33,6 @@
 		D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4BC1D364531009DDEBC /* MERBoolHelper.m */; };
 		D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD4BE1D364531009DDEBC /* MERUICreator.m */; };
 		D8DE21CE1DB4B7C600589371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE21CD1DB4B7C600589371 /* HomeViewController.m */; };
-		D8DE21D11DB4B84800589371 /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE21D01DB4B84800589371 /* testModel.m */; };
 		D8FD30D51D52E7D500A99CC4 /* MERUICommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30D41D52E7D500A99CC4 /* MERUICommonTool.m */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +63,6 @@
 		A7345C1E510957DBE10AFAF1 /* Pods-wallpaper-elfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACC541161B6906E0474B7396 /* libPods-wallpaper-elfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpaper-elfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D811DCA51D474FF10066DEC8 /* 83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "83146ca0gw1f4o22z0nevj20m80m8gpi@3x.jpg"; sourceTree = "<group>"; };
-		D81B44641DCC852000E5AD0D /* LayerAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationView.h; sourceTree = "<group>"; };
-		D81B44651DCC852000E5AD0D /* LayerAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationView.m; sourceTree = "<group>"; };
 		D81FA19F1D389779003F02CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		D81FA1A21D389794003F02CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81FA1A31D389794003F02CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -81,8 +75,6 @@
 		D81FA1C31D38DDDE003F02CC /* NotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationNames.h; sourceTree = "<group>"; };
 		D87A0ED81D39DB2800810EB8 /* MERImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERImageHelper.h; sourceTree = "<group>"; };
 		D87A0ED91D39DB2800810EB8 /* MERImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERImageHelper.m; sourceTree = "<group>"; };
-		D880F18E1D6FDEF5007FEBF1 /* testInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testInfoView.h; sourceTree = "<group>"; };
-		D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testInfoView.m; sourceTree = "<group>"; };
 		D8BA65C61D6FF16E00BC3DDA /* bgEarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgEarn.png; sourceTree = "<group>"; };
 		D8CEC0901D4895AC0002718A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
 		D8CEC0931D4AF3150002718A /* MERUITransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUITransform.h; sourceTree = "<group>"; };
@@ -97,8 +89,6 @@
 		D8CEC0C11D4B66310002718A /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		D8CEC0C21D4B7B9A0002718A /* MBProgressHUD+MER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MER.h"; sourceTree = "<group>"; };
 		D8CEC0C31D4B7B9A0002718A /* MBProgressHUD+MER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MER.m"; sourceTree = "<group>"; };
-		D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationViewController.h; sourceTree = "<group>"; };
-		D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationViewController.m; sourceTree = "<group>"; };
 		D8DAD4471D3351A4009DDEBC /* wallpaper-elf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-elf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAD44D1D3351A4009DDEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DAD44E1D3351A4009DDEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,8 +107,6 @@
 		D8DAD4BE1D364531009DDEBC /* MERUICreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUICreator.m; sourceTree = "<group>"; };
 		D8DE21CC1DB4B7C600589371 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D8DE21CD1DB4B7C600589371 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D8DE21CF1DB4B84800589371 /* testModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
-		D8DE21D01DB4B84800589371 /* testModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
 		D8FD30D31D52E7D500A99CC4 /* MERUICommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERUICommonTool.h; sourceTree = "<group>"; };
 		D8FD30D41D52E7D500A99CC4 /* MERUICommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERUICommonTool.m; sourceTree = "<group>"; };
 		F488B6D3720520339B9A7B85 /* Pods-wallpaper-elfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpaper-elfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -226,26 +214,9 @@
 			path = Common/categories;
 			sourceTree = "<group>";
 		};
-		D8CEC0991D4B08840002718A /* testViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D8CEC0C71D4C45730002718A /* LayerAnimationViewController.h */,
-				D8CEC0C81D4C45730002718A /* LayerAnimationViewController.m */,
-				D880F18E1D6FDEF5007FEBF1 /* testInfoView.h */,
-				D880F18F1D6FDEF5007FEBF1 /* testInfoView.m */,
-				D8DE21CF1DB4B84800589371 /* testModel.h */,
-				D8DE21D01DB4B84800589371 /* testModel.m */,
-				D81B44641DCC852000E5AD0D /* LayerAnimationView.h */,
-				D81B44651DCC852000E5AD0D /* LayerAnimationView.m */,
-			);
-			name = testViewController;
-			path = ../testViewController;
-			sourceTree = "<group>";
-		};
 		D8CEC0AE1D4B08BA0002718A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8CEC0991D4B08840002718A /* testViewController */,
 				D81FA1B61D389970003F02CC /* ViewController.h */,
 				D81FA1B71D389970003F02CC /* ViewController.m */,
 				D8DE21CC1DB4B7C600589371 /* HomeViewController.h */,
@@ -426,6 +397,7 @@
 				D8DAD4681D3351A4009DDEBC /* Frameworks */,
 				D8DAD4691D3351A4009DDEBC /* Resources */,
 				5CDF5A77D30C35C438F95907 /* [CP] Copy Pods Resources */,
+				38CA88289F7E63CF6D7C456F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -448,6 +420,8 @@
 				TargetAttributes = {
 					D8DAD4461D3351A4009DDEBC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F692N24C9P;
+						ProvisioningStyle = Automatic;
 					};
 					D8DAD45F1D3351A4009DDEBC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -529,19 +503,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elfTests/Pods-wallpaper-elfTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3DEDCF0BAF2C9CFE5AB6C8FC /* [CP] Check Pods Manifest.lock */ = {
+		38CA88289F7E63CF6D7C456F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elfUITests/Pods-wallpaper-elfUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DEDCF0BAF2C9CFE5AB6C8FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wallpaper-elf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B9D68A7E8E16E9414895AB2 /* [CP] Check Pods Manifest.lock */ = {
@@ -550,13 +542,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wallpaper-elfUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5CDF5A77D30C35C438F95907 /* [CP] Copy Pods Resources */ = {
@@ -580,13 +575,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wallpaper-elfTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BFD3F2689650FD0501CFFCFB /* [CP] Embed Pods Frameworks */ = {
@@ -610,9 +608,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wallpaper-elf/Pods-wallpaper-elf-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -642,16 +643,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81FA1B81D389970003F02CC /* ViewController.m in Sources */,
-				D8DE21D11DB4B84800589371 /* testModel.m in Sources */,
 				D8FD30D51D52E7D500A99CC4 /* MERUICommonTool.m in Sources */,
 				D8CEC0C41D4B7B9A0002718A /* MBProgressHUD+MER.m in Sources */,
 				D87A0EDA1D39DB2800810EB8 /* MERImageHelper.m in Sources */,
 				D8DAD44F1D3351A4009DDEBC /* AppDelegate.m in Sources */,
-				D81B44661DCC852000E5AD0D /* LayerAnimationView.m in Sources */,
-				D8CEC0D31D4C45730002718A /* LayerAnimationViewController.m in Sources */,
 				D8DAD4BF1D364531009DDEBC /* MERBoolHelper.m in Sources */,
 				D8CEC0951D4AF3150002718A /* MERUITransform.m in Sources */,
-				D880F1901D6FDEF5007FEBF1 /* testInfoView.m in Sources */,
 				D8DAD47F1D338C2D009DDEBC /* main.m in Sources */,
 				D8CEC0B11D4B0BB00002718A /* MEREditableImageView.m in Sources */,
 				D8DAD4C01D364531009DDEBC /* MERUICreator.m in Sources */,
@@ -781,13 +778,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Boxfish Education Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F692N24C9P;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/wallpaper-elf/SupportingFiles/wallpaper-elf.pch";
 				INFOPLIST_FILE = "wallpaper-elf/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.boxfish.operationalMaster2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boxfish.wallpaper-elf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5f24996e-dc20-4943-8559-07bb44456522";
-				PROVISIONING_PROFILE_SPECIFIER = "enterprise operationalMaster2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -798,13 +797,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Boxfish Education Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F692N24C9P;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/wallpaper-elf/SupportingFiles/wallpaper-elf.pch";
 				INFOPLIST_FILE = "wallpaper-elf/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.boxfish.operationalMaster2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boxfish.wallpaper-elf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5f24996e-dc20-4943-8559-07bb44456522";
-				PROVISIONING_PROFILE_SPECIFIER = "enterprise operationalMaster2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

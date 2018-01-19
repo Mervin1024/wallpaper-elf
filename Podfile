@@ -1,15 +1,15 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
   
-    pod 'AFNetworking', '~> 3.0'
-    pod 'MBProgressHUD', '~> 0.9'
-    pod 'FMDB', '~> 2.4'
-    pod 'SDWebImage', '~> 3.7.1'
-    pod 'SBJson4', '~> 4.0.1'
-    pod 'Colours', '~> 5.5.0'
-    pod 'Masonry', '~> 1.0.0'
-    pod 'MJRefresh', '~> 3.1.10'
-    pod 'MJExtension', '~> 3.0.11'
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
+#    pod 'FMDB', '~> 2.4'
+    pod 'SDWebImage'
+#    pod 'SBJson4', '~> 4.0.1'
+    pod 'Colours'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'Mantle'
 
 target 'wallpaper-elf' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
