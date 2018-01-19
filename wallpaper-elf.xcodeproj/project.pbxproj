@@ -164,11 +164,18 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		D81FA19B1D3896DC003F02CC /* UI库 */ = {
+		8CA768002011EBDB007B790B /* 可编辑图片 */ = {
 			isa = PBXGroup;
 			children = (
 				D8CEC0AF1D4B0BB00002718A /* MEREditableImageView.h */,
 				D8CEC0B01D4B0BB00002718A /* MEREditableImageView.m */,
+			);
+			path = "可编辑图片";
+			sourceTree = "<group>";
+		};
+		D81FA19B1D3896DC003F02CC /* UI库 */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = "UI库";
 			path = "Common/UI库";
@@ -258,6 +265,7 @@
 		D8DAD4491D3351A4009DDEBC /* wallpaper-elf */ = {
 			isa = PBXGroup;
 			children = (
+				8CA768002011EBDB007B790B /* 可编辑图片 */,
 				D8DAD4811D339053009DDEBC /* Common */,
 				8CA767F42011C72D007B790B /* OpenGl */,
 				D8CEC0AE1D4B08BA0002718A /* ViewControllers */,

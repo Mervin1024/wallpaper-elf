@@ -24,6 +24,7 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = COLOR(23, 126, 250);
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(addEditableImage)];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(removeAllResponder)];
     [self.view addGestureRecognizer:tap];
